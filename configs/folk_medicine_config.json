@@ -1,0 +1,330 @@
+{
+  "name": "folk_medicine",
+  "description": "Конфигурация для рекламы услуг народной медицины",
+  "legal_requirements": {
+    "mandatory_disclaimers": [
+      "ИМЕЮТСЯ ПРОТИВОПОКАЗАНИЯ",
+      "НЕОБХОДИМА КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТА"
+    ],
+    "allowed_terminology": [
+      "нетрадиционная медицина",
+      "народный целитель",
+      "знахарь",
+      "гадалка",
+      "целительство",
+      "лечение травами",
+      "энерготерапия",
+      "биоэнергетика",
+      "заговоры",
+      "молитвы",
+      "природные методы",
+      "древние методы",
+      "ведические методы",
+      "тибетские методы",
+      "шаманские методы",
+      "экстрасенс",
+      "колдун",
+      "маг",
+      "оккультист",
+      "хиромант",
+      "спирит",
+      "прорицатель",
+      "ясновидящий"
+    ],
+    "forbidden_in_folk_medicine_context": [
+      "лечебный массаж",
+      "медицинский массаж",
+      "врач",
+      "клиника",
+      "медицинский центр",
+      "поликлиника",
+      "больница",
+      "диагноз",
+      "диагностика",
+      "анализы",
+      "рентген",
+      "МРТ",
+      "УЗИ",
+      "рецепт врача"
+    ],
+    "massage_clarification": {
+      "medical_service": "Лечебный массаж поясничной области",
+      "folk_medicine": "Шаманский массаж с раскрытием чакр"
+    }
+  },
+  "headlines": {
+    "categories": {
+      "healer": {
+        "name": "Целители и знахари",
+        "items": [
+          "Народный целитель",
+          "Потомственный знахарь",
+          "Целительство природными силами",
+          "Древние методы исцеления",
+          "Сеансы народного целителя"
+        ]
+      },
+      "psychic": {
+        "name": "Экстрасенсы и ясновидящие",
+        "items": [
+          "Приём экстрасенса",
+          "Ясновидящая помощь",
+          "Сеансы ясновидения",
+          "Экстрасенсорная диагностика",
+          "Дар ясновидения"
+        ]
+      },
+      "fortune_teller": {
+        "name": "Гадалки и прорицатели",
+        "items": [
+          "Гадание на картах Таро",
+          "Потомственная гадалка",
+          "Прорицатель судьбы",
+          "Хиромантия — линии судьбы",
+          "Предсказание будущего"
+        ]
+      },
+      "shaman": {
+        "name": "Шаманы и духовные практики",
+        "items": [
+          "Шаманские практики",
+          "Сила древних шаманов",
+          "Духовное исцеление",
+          "Тибетские методы очищения",
+          "Ведические ритуалы"
+        ]
+      },
+      "spirit": {
+        "name": "Спиритизм и магия",
+        "items": [
+          "Спиритический сеанс",
+          "Связь с духами предков",
+          "Магическая защита",
+          "Снятие порчи и сглаза",
+          "Очищение кармы"
+        ]
+      },
+      "herbal": {
+        "name": "Траволечение и натуропатия",
+        "items": [
+          "Лечение травами",
+          "Фитотерапия по старинным рецептам",
+          "Натуропатия и травничество",
+          "Сила целебных растений",
+          "Травяные сборы для здоровья"
+        ]
+      },
+      "energy": {
+        "name": "Энергетические практики",
+        "items": [
+          "Биоэнергетический массаж",
+          "Энерготерапия и рейки",
+          "Работа с чакрами",
+          "Раскрытие энергетических каналов",
+          "Аюрведический массаж"
+        ]
+      },
+      "prayer": {
+        "name": "Молитвы и заговоры",
+        "items": [
+          "Исцеляющие молитвы",
+          "Заговоры на здоровье",
+          "Православные обряды исцеления",
+          "Молитвенное целительство",
+          "Старинные заговоры"
+        ]
+      }
+    }
+  },
+  "descriptions": [
+    "Приём ведёт потомственный целитель в 7-м поколении",
+    "Индивидуальный подход к каждому посетителю",
+    "Древние знания и природные методы",
+    "Диагностика биополя и энергетических блоков",
+    "Выявление причин недомоганий на тонком уровне",
+    "Работа с аурой и энергетическими центрами",
+    "Гадание на Таро, рунах, кофейной гуще",
+    "Раскрытие прошлого, настоящего и будущего",
+    "Линии судьбы расскажут о вашем пути",
+    "Шаманские ритуалы очищения и защиты",
+    "Связь с духами природы и предков",
+    "Тибетские поющие чаши и благовония",
+    "Авторские травяные сборы по старинным рецептам",
+    "Только экологически чистые травы из Алтая",
+    "Фитотерапия для гармонии тела и духа",
+    "Массаж с раскрытием чакр и меридианов",
+    "Восстановление энергетического баланса",
+    "Рейки-сеансы для глубокой релаксации",
+    "Предварительная запись обязательна",
+    "Опыт практики более 20 лет",
+    "Положительные отзывы благодарных посетителей"
+  ],
+  "disclaimers": [
+    "ИМЕЮТСЯ ПРОТИВОПОКАЗАНИЯ. НЕОБХОДИМА КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТА. Не является медицинской услугой.",
+    "ИМЕЮТСЯ ПРОТИВОПОКАЗАНИЯ. НЕОБХОДИМА КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТА. Услуги народной медицины.",
+    "ВНИМАНИЕ! ИМЕЮТСЯ ПРОТИВОПОКАЗАНИЯ. НЕОБХОДИМА КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТА перед посещением.",
+    "ИМЕЮТСЯ ПРОТИВОПОКАЗАНИЯ. НЕОБХОДИМА КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТА. Нетрадиционная медицина.",
+    "УСЛУГИ НАРОДНОЙ МЕДИЦИНЫ. ИМЕЮТСЯ ПРОТИВОПОКАЗАНИЯ. НЕОБХОДИМА КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТА."
+  ],
+  "scenarios": {
+    "no_people": [
+      {
+        "name": "herbs_jars",
+        "prompt": "vintage apothecary shelf with glass jars full of dried herbs and flowers, natural wood shelves, soft warm lighting, mystical atmosphere, no people, rustic style, 8k quality",
+        "description": "Травы в баночках и флаконах"
+      },
+      {
+        "name": "thai_massage_room",
+        "prompt": "traditional Thai massage room interior, bamboo mats, incense holder, candles, oriental decorations, warm ambient lighting, peaceful atmosphere, no people, 8k quality",
+        "description": "Кабинет тайского массажа"
+      },
+      {
+        "name": "incense_altar",
+        "prompt": "mystical altar with burning incense sticks, candles, crystals, dried flowers, dark atmospheric background, spiritual setting, warm glow, no people, 8k quality",
+        "description": "Благовония"
+      },
+      {
+        "name": "guru_cabinet",
+        "prompt": "spiritual guru meditation room, cushions, mandalas on walls, tibetan singing bowls, prayer beads, warm golden lighting, peaceful atmosphere, no people, 8k quality",
+        "description": "Кабинет духовного гуру"
+      },
+      {
+        "name": "folk_pharmacy",
+        "prompt": "old folk medicine workshop, mortar and pestle, dried herbs hanging, wooden bowls with powders, vintage bottles, rustic table, warm lighting, no people, 8k quality",
+        "description": "Символы производства лекарств народными инструментами"
+      },
+      {
+        "name": "spiritism_symbols",
+        "prompt": "mystical spiritism setting, ouija board, crystal ball, tarot cards, candles, dark velvet cloth, mysterious atmosphere, soft lighting, no people, 8k quality",
+        "description": "Символы спиритизма"
+      },
+      {
+        "name": "forest_herbs",
+        "prompt": "enchanted forest clearing with wild medicinal herbs and flowers, morning mist, sunlight rays through trees, magical atmosphere, nature healing, no people, 8k quality",
+        "description": "Лесные целебные травы"
+      },
+      {
+        "name": "chakra_room",
+        "prompt": "meditation room with chakra symbols, colored crystals arranged in pattern, soft ambient lighting, spiritual energy, zen atmosphere, no people, 8k quality",
+        "description": "Комната медитации с чакрами"
+      }
+    ],
+    "with_people": [
+      {
+        "name": "ayurvedist_right",
+        "prompt": "ayurvedic practitioner in traditional clothing on right side of image, herbs and oils visible, warm lighting, professional setting, left side empty for text, 8k quality",
+        "description": "Аюрведист справа",
+        "person_position": "right"
+      },
+      {
+        "name": "spiritual_teacher_left",
+        "prompt": "wise spiritual teacher in meditation pose on left side, wearing traditional robes, peaceful expression, candles and incense, right side empty for text, 8k quality",
+        "description": "Духовный учитель слева",
+        "person_position": "left"
+      },
+      {
+        "name": "spiritist_table",
+        "prompt": "mysterious spiritist sitting at table with crystal ball and candles, dramatic lighting, mystical atmosphere, face partially visible, space for text on sides, 8k quality",
+        "description": "Спиритист за столом",
+        "person_position": "center"
+      },
+      {
+        "name": "naturopath_left",
+        "prompt": "female naturopath herbalist on left side, surrounded by dried herbs and jars, natural warm lighting, kind expression, right side empty for text, 8k quality",
+        "description": "Натуропат слева",
+        "person_position": "left"
+      },
+      {
+        "name": "patient_healer_session",
+        "prompt": "patient receiving healing session from folk healer shaman, hands hovering above, energy visualization, soft mystical lighting, peaceful atmosphere, 8k quality",
+        "description": "Пациент на приёме у целителя/шамана",
+        "person_position": "center"
+      },
+      {
+        "name": "fortune_teller_left",
+        "prompt": "mysterious fortune teller woman on left side with tarot cards, colorful scarves, golden jewelry, candlelit atmosphere, right side empty for text, 8k quality",
+        "description": "Гадалка слева",
+        "person_position": "left"
+      },
+      {
+        "name": "sorcerer_right",
+        "prompt": "wise old sorcerer mage on right side of image, long beard, mystical staff, ancient books, dark atmospheric setting, left side empty for text, 8k quality",
+        "description": "Колдун справа",
+        "person_position": "right"
+      }
+    ]
+  },
+  "styles": [
+    {
+      "name": "gold",
+      "description": "Золотой",
+      "headline_color": [212, 175, 55],
+      "text_color": [255, 250, 240],
+      "accent_color": [255, 215, 0]
+    },
+    {
+      "name": "white",
+      "description": "Белый",
+      "headline_color": [255, 255, 255],
+      "text_color": [245, 245, 245],
+      "accent_color": [220, 220, 220]
+    },
+    {
+      "name": "cream",
+      "description": "Кремовый",
+      "headline_color": [255, 253, 208],
+      "text_color": [255, 250, 240],
+      "accent_color": [245, 235, 200]
+    },
+    {
+      "name": "silver",
+      "description": "Серебряный",
+      "headline_color": [192, 192, 210],
+      "text_color": [230, 230, 240],
+      "accent_color": [170, 170, 190]
+    },
+    {
+      "name": "bronze",
+      "description": "Бронзовый",
+      "headline_color": [205, 127, 50],
+      "text_color": [255, 245, 230],
+      "accent_color": [184, 115, 51]
+    },
+    {
+      "name": "mystic_purple",
+      "description": "Мистический фиолетовый",
+      "headline_color": [200, 160, 255],
+      "text_color": [240, 230, 255],
+      "accent_color": [180, 140, 230]
+    },
+    {
+      "name": "earth_green",
+      "description": "Травяной зелёный",
+      "headline_color": [144, 190, 109],
+      "text_color": [240, 255, 240],
+      "accent_color": [120, 160, 90]
+    }
+  ],
+  "layouts": [
+    {
+      "name": "classic_left",
+      "description": "Текст слева (для фото справа)"
+    },
+    {
+      "name": "classic_right",
+      "description": "Текст справа (для фото слева)"
+    },
+    {
+      "name": "top_bottom",
+      "description": "Текст сверху и снизу"
+    },
+    {
+      "name": "center_stack",
+      "description": "Текст по центру"
+    },
+    {
+      "name": "diagonal",
+      "description": "Диагональное размещение"
+    }
+  ]
+}

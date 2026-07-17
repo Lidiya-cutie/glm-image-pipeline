@@ -1,0 +1,3257 @@
+{
+  "category": "tobacco",
+  "description": "Магазины табака и курительных принадлежностей, вейп-шопы, кальян-бары. Для категории табак.",
+  "stores": [
+    {
+      "name": "Hookah Baza",
+      "hours": "11:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Гагарина, 33, Екатеринбург",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookah_baza/26212664377/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Shabilka",
+      "hours": "12:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Советская ул., 47Г, Екатеринбург",
+      "yandex_maps_url": "https://yandex.ru/maps/org/shabilka/116239704624/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Табак Плюс",
+      "hours": "10:00 - 22:00",
+      "category": "Вейп-шоп",
+      "address": "просп. Космонавтов, 108Д, Екатеринбург, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabak_plyus/179112654067/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Cowboy Hookah Shop",
+      "hours": "11:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Гурзуфская ул., 49, Екатеринбург",
+      "yandex_maps_url": "https://yandex.ru/maps/org/cowboy_hookah_shop/222058690322/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "SPBsmoke",
+      "hours": "11:00 - 00:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Советский просп., 41, корп. 1, территория Усть-Славянка, вход со двора, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/spbsmoke/121074445635/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Q Store",
+      "hours": "11:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Балканская ул., 17, ТРК Балкания Нова",
+      "yandex_maps_url": "https://yandex.ru/maps/org/q_store/163025010830/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "PiterSmoke",
+      "hours": "10:00 - 23:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Салова, 61, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/pitersmoke/235721394293/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Puff room",
+      "hours": "11:00 - 22:00",
+      "category": "Вейп-шоп",
+      "address": "Парашютная ул., 44, корп. 2",
+      "yandex_maps_url": "https://yandex.ru/maps/org/puff_room/241441842109/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "МосТабак",
+      "hours": "Круглосуточно",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Средний просп. Васильевского острова, 44",
+      "yandex_maps_url": "https://yandex.ru/maps/org/mostabak/129406416923/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Mkv",
+      "hours": "10:00 - 23:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "7-я линия Васильевского острова, 40, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/mkv/17763508788/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Магазин кальянов Смогус",
+      "hours": "11:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Лиговский просп., 43-45, офис 510, этаж 5",
+      "yandex_maps_url": "https://yandex.ru/maps/org/magazin_kalyanov_smogus/1344593256/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Мир Кальянов и Vape",
+      "hours": "10:00 - 23:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Одоевского, 33, этаж 3, офис 4",
+      "yandex_maps_url": "https://yandex.ru/maps/org/mir_kalyanov_i_vape/131987015550/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Kaif Smoke",
+      "hours": "11:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Садовая ул., 59",
+      "yandex_maps_url": "https://yandex.ru/maps/org/kaif_smoke/240191170079/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "ДымОкрат",
+      "hours": "10:00 - 23:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Уральская ул., 21, Санкт-Петербург",
+      "yandex_maps_url": "https://yandex.ru/maps/org/dymokrat/222874308472/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "SmokeLab",
+      "hours": "10:00 - 23:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Невский просп., 88",
+      "yandex_maps_url": "https://yandex.ru/maps/org/smokelab/1797688938/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "S2B",
+      "hours": "10:00 - 23:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Южное ш., 53, корп. 2",
+      "yandex_maps_url": "https://yandex.ru/maps/org/s2b/3564416204/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Escobar",
+      "hours": "Круглосуточно",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Малая Посадская ул., 19, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/escobar/172804042539/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Nbg",
+      "hours": "11:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Садовая ул., 28-30к3, Санкт-Петербург, этаж 2",
+      "yandex_maps_url": "https://yandex.ru/maps/org/nbg/81754453937/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Табак 178",
+      "hours": "11:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Наличная ул., 31, Санкт-Петербург",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabak_178/71071550871/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Топ Табак",
+      "hours": "11:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Большой просп. Петроградской стороны, 58, Санкт-Петербург, сразу справа при входе в ТЦ, этаж Первый",
+      "yandex_maps_url": "https://yandex.ru/maps/org/top_tabak/116624506305/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Vapar shop",
+      "hours": "10:00 - 23:00",
+      "category": "Вейп-шоп",
+      "address": "Малая Морская ул., 21, Санкт-Петербург, этаж цокольный",
+      "yandex_maps_url": "https://yandex.ru/maps/org/vapar_shop/201335916618/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Табак",
+      "hours": "Круглосуточно",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Литейный просп., 51, Санкт-Петербург",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabak/128832066530/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Дудочная",
+      "hours": "Круглосуточно",
+      "category": "Вейп-шоп",
+      "address": "Большая Конюшенная ул., 7, Санкт-Петербург",
+      "yandex_maps_url": "https://yandex.ru/maps/org/dudochnaya/133919073722/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Тапир",
+      "hours": "11:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Чапаева, 4, Санкт-Петербург",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tapir/14763102292/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Mf Tobacco",
+      "hours": "11:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Большой Сампсониевский просп., 57/2, Санкт-Петербург",
+      "yandex_maps_url": "https://yandex.ru/maps/org/mf_tobacco/105181033554/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "НиКотин",
+      "hours": "11:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Литейный просп., 23, Санкт-Петербург",
+      "yandex_maps_url": "https://yandex.ru/maps/org/nikotin/173690788020/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "ProTobacco",
+      "hours": "Круглосуточно",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "просп. Металлистов, 59, Санкт-Петербург",
+      "yandex_maps_url": "https://yandex.ru/maps/org/protobacco/232508935657/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Гора дыма",
+      "hours": "11:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "пер. Ульяны Громовой, 1/13, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/gora_dyma/51234749507/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Мир Кальянов",
+      "hours": "11:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Гражданский просп., 41, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/mir_kalyanov/1390139186/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Royal Smoke",
+      "hours": "11:00 - 01:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Артиллерийский пер., 1, этаж цокольный",
+      "yandex_maps_url": "https://yandex.ru/maps/org/royal_smoke/1806772786/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Кинг-Табак 24",
+      "hours": "Круглосуточно",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Владимирский просп., 17, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/king_tabak_24/231023112572/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Saint Smoke",
+      "hours": "11:00 - 22:00",
+      "category": "Вейп-шоп",
+      "address": "ул. Радищева, 38/20, этаж цокольный",
+      "yandex_maps_url": "https://yandex.ru/maps/org/saint_smoke/54130208516/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Parovoz",
+      "hours": "10:00 - 23:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "8-я Советская ул., 16/25",
+      "yandex_maps_url": "https://yandex.ru/maps/org/parovoz/192571101651/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Pop Smoke",
+      "hours": "Круглосуточно",
+      "category": "Вейп-шоп",
+      "address": "Новоладожская ул., 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/pop_smoke/2856190920/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Хайп Табак 24",
+      "hours": "Круглосуточно",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Невский просп., 134Б",
+      "yandex_maps_url": "https://yandex.ru/maps/org/khayp_tabak_24/94079100762/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Табак 812",
+      "hours": "Круглосуточно",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Измайловский просп., 20",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabak_812/24687900906/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Невский дым",
+      "hours": "11:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Екатерининский просп., 2",
+      "yandex_maps_url": "https://yandex.ru/maps/org/nevskiy_dym/52124068873/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Edsmoke",
+      "hours": "10:00 - 23:00",
+      "category": "Вейп-шоп",
+      "address": "Садовая ул., 84, Вход с права от арки, через магазин Арминка",
+      "yandex_maps_url": "https://yandex.ru/maps/org/edsmoke/131798717088/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Smoking Shop",
+      "hours": "11:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Лабораторный просп., 23",
+      "yandex_maps_url": "https://yandex.ru/maps/org/smoking_shop/243201055279/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Мостабак",
+      "hours": "Круглосуточно",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Балканская площадь, 5Е",
+      "yandex_maps_url": "https://yandex.ru/maps/org/mostabak/82511747968/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Кинг-табак 24",
+      "hours": "Круглосуточно",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Лиговский просп., 43-45",
+      "yandex_maps_url": "https://yandex.ru/maps/org/king_tabak_24/217093852862/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Табако",
+      "hours": "Круглосуточно",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Финляндский просп., 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabako/232138928520/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Smoky Smoke",
+      "hours": "10:00 - 23:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Кондратьевский просп., 62, корп. 2, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/smoky_smoke/160534169538/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "La Casa del Habano",
+      "hours": "10:00 - 23:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Большой просп. Петроградской стороны, 37, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/la_casa_del_habano/198481625494/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Mir Kalyanov i Vape",
+      "hours": "11:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Прибрежная ул., 18, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/mir_kalyanov_i_vape/94015093965/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Табачок",
+      "hours": "Круглосуточно",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Садовая ул., 7, этаж цокольный",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabachok/226531631818/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "FreeSmoke World",
+      "hours": "10:00 - 23:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "бул. Александра Грина, 2, корп. 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/freesmoke_world/88888491267/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Hoocar",
+      "hours": "11:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Плесецкая ул., 20, корп. 2",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hoocar/124993498712/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Новый табачный",
+      "hours": "11:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Кронверкская ул., 1, подъезд 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/novy_tabachny/219778781662/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "PipeShop.ru",
+      "hours": "11:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Лермонтовский просп., 43/1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/pipeshop_ru/1121996288/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "King Bong",
+      "hours": "11:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Колокольная ул., 7",
+      "yandex_maps_url": "https://yandex.ru/maps/org/king_bong/9375931917/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "СПб Бонг",
+      "hours": "11:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Гончарная ул., 13, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/spb_bong/1091511778/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Bng shop",
+      "hours": "11:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Галерная ул., 20-22",
+      "yandex_maps_url": "https://yandex.ru/maps/org/bng_shop/74364718852/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Boogie Shop",
+      "hours": "11:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Лиговский просп., 74, этаж 2.8",
+      "yandex_maps_url": "https://yandex.ru/maps/org/boogie_shop/1810349950/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Наша сеть",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Лиговский просп., 33-35, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/nasha_set/37721932284/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Табакон",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "просп. Римского-Корсакова, 71",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabakon/42310297557/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Наша Сеть",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Декабристов, 46, подъезд 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/nasha_set/150980158008/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Магазин подарков и табачной продукции Табакон",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "просп. Большевиков, 18, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/magazin_podarkov_i_tabachnoy_produktsii_tabakon/172101599544/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Sb Tabak",
+      "hours": "10:00 - 23:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "3-й Павелецкий пр., 3",
+      "yandex_maps_url": "https://yandex.ru/maps/org/sb_tabak/50277617660/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "МосТабак",
+      "hours": "Круглосуточно",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Верхняя Радищевская ул., 22",
+      "yandex_maps_url": "https://yandex.ru/maps/org/mostabak/218574927675/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Puro-Cigar",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Ленинский просп., 37А, Вывеска СИГАРЫ",
+      "yandex_maps_url": "https://yandex.ru/maps/org/puro_cigar/1332307089/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Супертабак",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "1-я Останкинская ул., 53",
+      "yandex_maps_url": "https://yandex.ru/maps/org/supertabak/1184132556/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Табачка на районе",
+      "hours": "Круглосуточно",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Солдатская ул., 10, корп. 2",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabachka_na_rayone/54417095698/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "RastaShop",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Пятницкая ул., 3/4с2, Москва, этаж цокольный",
+      "yandex_maps_url": "https://yandex.ru/maps/org/rastashop/52032972169/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Гавана",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Комсомольский просп., 17",
+      "yandex_maps_url": "https://yandex.ru/maps/org/gavana/1046465527/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Галерея табака",
+      "hours": "10:00 - 23:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Люсиновская ул., 9",
+      "yandex_maps_url": "https://yandex.ru/maps/org/galereya_tabaka/1066901768/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Табак Vape",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Большая Семёновская ул., 29/2, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabak_vape/201394695735/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Трубка",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Сиреневый бул., 64А, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/trubka/87253683536/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Табак",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Краснопрудная ул., 1, Москва, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabak/155197821166/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Smokit",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "просп. Вернадского, 86А, Москва, этаж -1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/smokit/50736506703/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Vape City",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Новодмитровская ул., 2, корп. 1, Москва, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/vape_city/236503163243/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Tabacco Cuba",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Преображенская площадь, 8, Москва, этаж 2",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabacco_cuba/39834476024/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "МосТабак",
+      "hours": "Круглосуточно",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Баумана, 49",
+      "yandex_maps_url": "https://yandex.ru/maps/org/mostabak/169815653027/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Трубка мира",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Баумана, 44/8, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/trubka_mira/170614034473/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Табачная Галерея",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Техническая ул., 60",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabachnaya_galereya/216745755052/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Paradogs Vape Shop",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Баумана, 82, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/paradogs_vape_shop/4905225114/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Coast Smoke",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "просп. Ямашева, 38",
+      "yandex_maps_url": "https://yandex.ru/maps/org/coast_smoke/198885365134/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Табачный магазин Табак",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Кул Гали, 34, помещение 1011",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabachny_magazin_tabak/21573284034/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Т-рт",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "2-я Старо-Аракчинская ул., 39А",
+      "yandex_maps_url": "https://yandex.ru/maps/org/t_rt/92840893978/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Магия Востока",
+      "hours": "Круглосуточно",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Мулланура Вахитова, 8",
+      "yandex_maps_url": "https://yandex.ru/maps/org/magiya_vostoka/1342426763/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Hookamania",
+      "hours": "10:00 - 23:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Беломорская ул., 69/5",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookamania/50690078136/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Смокинг шоп",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Тансык, 1/21",
+      "yandex_maps_url": "https://yandex.ru/maps/org/smoking_shop/136133626401/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "HookahTrade",
+      "hours": "10:00 - 23:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Достоевского, 50, Казань",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahtrade/151743194770/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Hookahtrade",
+      "hours": "10:00 - 23:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Восход, 16, Казань",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahtrade/222388006360/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Табак",
+      "hours": "10:00 - 23:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Галии Кайбицкой, 3, Казань",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabak/159793412205/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Star табак",
+      "hours": "10:00 - 23:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Олимпийская ул., 5, д. Куюки",
+      "yandex_maps_url": "https://yandex.ru/maps/org/star_tabak/224567436836/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "МосТабак",
+      "hours": "Круглосуточно",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Крюковская площадь, 1, Зеленоград, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/mostabak/216704049213/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Мята",
+      "hours": "12:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Григория Кукуевицкого, 13, корп. 1, Сургут, этаж 2",
+      "yandex_maps_url": "https://yandex.ru/maps/org/myata/1675473737/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Дарт Вэйпер",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Радужная ул., 7, Чебоксары",
+      "yandex_maps_url": "https://yandex.ru/maps/org/dart_veyper/239597189242/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Рокетс Табак",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Новокрюковская ул., 10, Зеленоград",
+      "yandex_maps_url": "https://yandex.ru/maps/org/rokets_tabak/120974845885/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Royal smoke",
+      "hours": "12:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "просп. Ленина, 36, Нижний Тагил",
+      "yandex_maps_url": "https://yandex.ru/maps/org/royal_smoke/241694569196/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Айтабак",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Семенюка, 11, Дмитров, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/aytabak/1709135871/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Табачка на районе",
+      "hours": "Круглосуточно",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "бул. Дмитрия Донского, 2А, Москва, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabachka_na_rayone/28375120734/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Kaef Smoke",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Москва, Киевское шоссе, 23-й километр, 1, этаж P1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/kaef_smoke/242488453036/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "МосТабак",
+      "hours": "Круглосуточно",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Горчакова, 11, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/mostabak/110628082811/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Табакерка № 1",
+      "hours": "10:00 - 00:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Лётная ул., 21, Мытищи",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabakerka_1/2466920989/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Сигарная комната",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Университетский просп., 4, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/sigarnaya_komnata/97912467331/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Табак",
+      "hours": "Круглосуточно",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Старо-Петергофский просп., 43-45Б, Санкт-Петербург",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabak/212446497904/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Dark Spot",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Ленина, 11, село Ильинское",
+      "yandex_maps_url": "https://yandex.ru/maps/org/dark_spot/48785376296/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Шишка",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "просп. Гагарина, 222А, Нижний Новгород, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/shishka/151440652405/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Пармаркет",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Луговая ул., 30, д. Анкудиновка, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/parmarket/8428978015/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Табакъ",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Ленина, 61, село Павловская Слобода, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabak/38275610448/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Табак Дымный Без Дымный",
+      "hours": "09:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Дуси Ковальчук, 73Б, Новосибирск",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabak_dymny_bez_dymny/228003730404/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Zippo.ru",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин подарков и сувениров, товары для отдыха и туризма",
+      "address": "Вятская ул., 27, корп. 5, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/zippo_ru/1704586051/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Сувенир 66",
+      "hours": "09:00 - 22:00",
+      "category": "Магазин подарков и сувениров, полиграфические услуги",
+      "address": "ул. Луначарского, 130, Екатеринбург, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/suvenir_66/1160176627/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Зиппо",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин подарков и сувениров",
+      "address": "Ленинградское ш., 94, корп. 1, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/zippo/190450093351/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "HookahTrade",
+      "hours": "10:00 - 00:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Сибирский Тракт, 8, Казань",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahtrade/147951700763/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Зиппо",
+      "hours": "11:00 - 22:00",
+      "category": "Магазин подарков и сувениров",
+      "address": "ул. Маерчака, 18, Красноярск",
+      "yandex_maps_url": "https://yandex.ru/maps/org/zippo/51442152640/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Накурено.рф Кальяны Vape",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "просп. Победы, 22, Ступино",
+      "yandex_maps_url": "https://yandex.ru/maps/org/nakureno_rf_kalyany_vape/136163433431/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Сигары, алкоголь, табак",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Павелецкая площадь, 1, Москва, подъезд 3",
+      "yandex_maps_url": "https://yandex.ru/maps/org/sigary_alkogol_tabak/1031710422/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Табак",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "просп. Мира, 4, стр. 1, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabak/1009088305/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Tabaks.ru",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Молодогвардейцев, 7, Челябинск, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabaks_ru/1349588484/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Вкус табака",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "просп. Вернадского, 29, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/vkus_tabaka/139820137291/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Табачный магазин № 1",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Кулахметова, 33, Казань",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabachny_magazin_1/1007580968/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Churchill Tobacco",
+      "hours": "09:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Адмирала Фокина, 8, Владивосток",
+      "yandex_maps_url": "https://yandex.ru/maps/org/churchill_tobacco/1116317098/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Табакерка на Просеке",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "6-я просека, 147, Самара",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabakerka_na_proseke/132324000455/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Табакофф",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Карла Маркса, 13А, корп. 3, Ульяновск",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabakoff/1707547028/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Сигары Табак",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Привольная ул., 27, корп. 1, Москва, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/sigary_tabak/1247667955/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Табакос",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Авиационная ул., 66, Москва, этаж 2",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabakos/1709746607/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Davidoff",
+      "hours": "10:00 - 02:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Лиговский просп., 9/31, Санкт-Петербург, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/davidoff/202678744250/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Мостабакторг",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Снежная ул., 25, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/mostabaktorg/103584667697/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Сигары",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Ленинградское ш., 8, корп. 2, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/sigary/210150104150/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "La Casa Del Habano",
+      "hours": "10:00 - 16:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Гоголя, 22, Екатеринбург",
+      "yandex_maps_url": "https://yandex.ru/maps/org/la_casa_del_habano/26376159908/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Сигары мира",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Полевая ул., 18, Тюмень, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/sigary_mira/45278785454/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Pair. Вино и сигары",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Большая Садовая ул., 14, стр. 6, Москва, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/pair_vino_i_sigary/133463452405/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Cigars Shop",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Молостовых, 3Б, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/cigars_shop/1069119407/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Табачный Джо",
+      "hours": "10:00 - 00:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Южная ул., 3, Новороссийск",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabachny_dzho/187415073763/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Табачный бутик",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Кремлёвская ул., 21, Казань",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabachny_butik/35463354877/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Сигар бар",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Курортный просп., 50, Сочи",
+      "yandex_maps_url": "https://yandex.ru/maps/org/sigar_bar/42508180843/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Торседор",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Кутузовский просп., 35, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/torsedor/153745044865/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Табацкий Премиум",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Климова, 25, Ногинск, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabatskiy_premium/163162724787/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Аль Капоне",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "просп. Гагарина, 118, Нижний Новгород",
+      "yandex_maps_url": "https://yandex.ru/maps/org/al_kapone/100777863153/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Tabaks",
+      "hours": "09:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Российская ул., 194, Челябинск, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabaks/1323039182/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Форт Сигар",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "бул. Менделеева, 10, Мурино, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/fort_sigar/113992061207/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Культ сигар",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Москва-Сити, Башня на Набережной, этаж -1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/kult_sigar/157092297054/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Сигары-Табак",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Сергия Радонежского, 11, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/sigary_tabak/1117684882/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Табачкоф",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Юнтоловский просп., 47, корп. 1, Санкт-Петербург",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabachkof/153788019539/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Сигарный клуб",
+      "hours": "09:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Тверитина, 48, Екатеринбург",
+      "yandex_maps_url": "https://yandex.ru/maps/org/sigarny_klub/16020226422/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Табак&Сигары",
+      "hours": "09:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Карла Маркса, 129, Красноярск",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabak_sigary/45187823759/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Армянский табачок",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Нагорная ул., 3, Архангельск, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/armyanskiy_tabachok/146794098076/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Метод",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Южнобутовская ул., 36, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/metod/1904620163/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Гуд Вейп",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Карла Либкнехта, 85/1, Белореченск",
+      "yandex_maps_url": "https://yandex.ru/maps/org/gud_veyp/195948826141/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "VapSmoker.ru",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Ленина, 8, Истра",
+      "yandex_maps_url": "https://yandex.ru/maps/org/vapsmoker_ru/138612842/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Табачная лавка",
+      "hours": "09:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Малышева, 113, Екатеринбург",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabachnaya_lavka/1694315441/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Табачная империя",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "просп. Машиностроителей, 30/18, Ярославль, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabachnaya_imperiya/11227736889/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Табак и Вейп 24",
+      "hours": "Круглосуточно",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Волоколамское ш., 71, корп. 4, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabak_i_veyp_24/163738080874/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Табачный магазин",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. 50 лет ВЛКСМ, 59А, Ставрополь",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabachny_magazin/1795093001/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Паровозъ",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Учебная ул., 18, Томск",
+      "yandex_maps_url": "https://yandex.ru/maps/org/parovoz/1829128277/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Q Store",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Москва, Киевское шоссе, 23-й километр, 1, ГМ Глобус",
+      "yandex_maps_url": "https://yandex.ru/maps/org/q_store/57566337828/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Cigar66",
+      "hours": "09:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Белинского, 165Б, Екатеринбург",
+      "yandex_maps_url": "https://yandex.ru/maps/org/cigar66/40332565728/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Табак Плюс",
+      "hours": "08:00 - 22:00",
+      "category": "Вейп-шоп",
+      "address": "ул. 8 Марта, 179А, Екатеринбург",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabak_plyus/207271725851/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Bongo-Bong",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Новый Арбат, 30/9",
+      "yandex_maps_url": "https://yandex.ru/maps/org/bongo_bong/1296952289/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Smoking Shop",
+      "hours": "10:00 - 22:00",
+      "category": "Вейп-шоп",
+      "address": "Большая Семёновская ул., 17А, Москва, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/smoking_shop/21496801247/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "МосТабак",
+      "hours": "Круглосуточно",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Восстания, 9, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/mostabak/41235502576/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Ваш Сувенир",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин подарков и сувениров, полиграфические услуги",
+      "address": "ул. Плеханова, 61, Уссурийск",
+      "yandex_maps_url": "https://yandex.ru/maps/org/vash_suvenir/1221747216/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "КальянШоп",
+      "hours": "09:58 - 22:00",
+      "category": "Вейп-шоп",
+      "address": "площадь Карла Маркса, 3, Новосибирск, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/kalyanshop/1250168624/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Зажигалки Zippo",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин подарков и сувениров",
+      "address": "просп. Димитрова, 7, Новосибирск",
+      "yandex_maps_url": "https://yandex.ru/maps/org/zazhigalki_zippo/215801050571/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Tobacco Smoke Shop",
+      "hours": "10:00 - 22:00",
+      "category": "Вейп-шоп",
+      "address": "ул. имени Архитектора Н.П. Краснова, 2А, Ялта",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tobacco_smoke_shop/157299985697/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Nargila Hookah",
+      "hours": "10:00 - 00:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Пионерская ул., 11, Евпатория",
+      "yandex_maps_url": "https://yandex.ru/maps/org/nargila_hookah/159590762916/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Культ Сигар",
+      "hours": "11:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Саида Барака, 14, Ташкент",
+      "yandex_maps_url": "https://yandex.ru/maps/org/kult_sigar/185112118186/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Tobaccer",
+      "hours": "10:00 - 23:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Театральная аллея, 3, стр. 1, Москва, этаж -1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tobaccer/202353699622/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "HiDar",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "Пресненская наб., 2, Москва, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hidar/207958973290/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Divan Cigar Club",
+      "hours": "10:00 - 23:00",
+      "category": "Бар, магазин табака и курительных принадлежностей",
+      "address": "Рублёво-Успенское ш., 71, д. Жуковка",
+      "yandex_maps_url": "https://yandex.ru/maps/org/divan_cigar_club/72829390562/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Smoke Team",
+      "hours": "10:00 - 23:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Ефремова, 123/1, Армавир",
+      "yandex_maps_url": "https://yandex.ru/maps/org/smoke_team/22371519246/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Хукашоп",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "просп. Ленина, 37, Петрозаводск",
+      "yandex_maps_url": "https://yandex.ru/maps/org/khukashop/77374032691/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Вейп & кальян",
+      "hours": "10:00 - 23:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Семёна Гордого, 7, д. Ивановское, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/veyp_kalyan/223887728930/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Corsar",
+      "hours": "10:00 - 22:00",
+      "category": "Магазин табака и курительных принадлежностей",
+      "address": "ул. Доваторцев, 75А, корп. 1, Ставрополь, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/corsar/1769920073/",
+      "website": "",
+      "phone": ""
+    }
+  ],
+  "bars": [
+    {
+      "name": "Дон Хуан",
+      "hours": "10:00 - 14:00",
+      "category": "Кальян-бар",
+      "address": "ул. Мате Залки, 8/1, микрорайон Северный, Красноярск",
+      "yandex_maps_url": "https://yandex.ru/maps/org/don_khuan/15728450120/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Цоколь",
+      "hours": "10:00 - 13:00",
+      "category": "Кальян-бар, настольные и интеллектуальные игры",
+      "address": "Октябрьская ул., 10, Красноярск, этаж цокольный",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tsokol/84144890012/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "HookahPlace Akari",
+      "hours": "10:00 - 02:00",
+      "category": "Кальян-бар, бар",
+      "address": "Большой Овчинниковский пер., 16, Москва, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahplace_akari/25558422006/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Cocos Lounge",
+      "hours": "10:00 - 02:00",
+      "category": "Ресторан, кальян-бар",
+      "address": "Московский просп., 183-185Ак5А, Санкт-Петербург, этаж 2",
+      "yandex_maps_url": "https://yandex.ru/maps/org/cocos_lounge/121367067828/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "HookahPlace Mystic",
+      "hours": "10:00 - 02:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "Краснопресненская наб., 2/1, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahplace_mystic/144708782347/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "HookahPlace RockStar",
+      "hours": "10:00 - 00:00",
+      "category": "Кальян-бар",
+      "address": "Большой Сухаревский пер., 5, стр. 2, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahplace_rockstar/45822914011/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "HookahPlace",
+      "hours": "10:00 - 00:00",
+      "category": "Кальян-бар",
+      "address": "Верхняя Сыромятническая ул., 2, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahplace/210085899618/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "JohnCalliano Lounge",
+      "hours": "10:00 - 00:00",
+      "category": "Кальян-бар, бар",
+      "address": "ул. Солянка, 1/2с1, Москва, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/johncalliano_lounge/67155683857/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Birja lounge",
+      "hours": "10:00 - 06:00",
+      "category": "Кальян-бар, спортбар",
+      "address": "Ленинградский просп., 31, стр. 3, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/birja_lounge/74632172150/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Hookah Place",
+      "hours": "10:00 - 02:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "ул. С.П. Попова, 21Б, Люберцы, этаж 3",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookah_place/27551199019/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Хука Лофт",
+      "hours": "10:00 - 01:00",
+      "category": "Кальян-бар",
+      "address": "Советская ул., 14, Дмитров",
+      "yandex_maps_url": "https://yandex.ru/maps/org/khuka_loft/1761915830/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Балкон лаунж-бар",
+      "hours": "10:00 - 01:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "Большой просп. Петроградской стороны, 84, Санкт-Петербург, этаж 5",
+      "yandex_maps_url": "https://yandex.ru/maps/org/balkon_launzh_bar/218232508056/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "HookahPlace Маркс",
+      "hours": "10:00 - 02:00",
+      "category": "Кальян-бар, кафе",
+      "address": "ул. Большие Каменщики, 9, стр. Д",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahplace_marks/206755193471/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "City Hookah",
+      "hours": "10:00 - 02:00",
+      "category": "Кальян-бар",
+      "address": "Крымская ул., 3, корп. 1, рабочий посёлок Боброво",
+      "yandex_maps_url": "https://yandex.ru/maps/org/city_hookah/204784578838/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Hookahplace Forever",
+      "hours": "Круглосуточно",
+      "category": "Кальян-бар",
+      "address": "Мясницкая ул., 13, стр. 24, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahplace_forever/215880363853/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "HookahPlace New Center",
+      "hours": "12:00 до 02:00",
+      "category": "Кальян-бар",
+      "address": "ул. Революции, 24, Пермь",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahplace_new_center/19412894201/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "HookahPlace Flames",
+      "hours": "Круглосуточно",
+      "category": "Кальян-бар, кафе",
+      "address": "Люблинская ул., 169, корп. 2, Москва, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahplace_flames/238011347549/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "HookahPlace The Loft",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар",
+      "address": "Северный пер., 45, Ижевск",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahplace_the_loft/4415907052/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Кальянная Гайд",
+      "hours": "10:00 - 22:00",
+      "category": "Кальян-бар",
+      "address": "Депутатская ул., 74Б, Иркутск",
+      "yandex_maps_url": "https://yandex.ru/maps/org/kalyannaya_gayd/154468988007/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Hookah Time",
+      "hours": "12:00 - 01:00",
+      "category": "Кальян-бар, бар",
+      "address": "просп. Андропова, 13А, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookah_time/1789985141/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Нирвана Лаунж",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, бар",
+      "address": "просп. Героев, 9, микрорайон Железнодорожный, Балашиха",
+      "yandex_maps_url": "https://yandex.ru/maps/org/nirvana_launzh/113605414692/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Lounge bar Mao",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, кафе",
+      "address": "Социалистическая ул., 48, Ростов-на-Дону, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/lounge_bar_mao/1324440708/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Берлога Lounge",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, магазин табака и курительных принадлежностей",
+      "address": "Красногеройская ул., 63, Ижевск",
+      "yandex_maps_url": "https://yandex.ru/maps/org/berloga_lounge/60709323050/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "X. O Lounge",
+      "hours": "12:00 - 04:00",
+      "category": "Кальян-бар",
+      "address": "ул. Клары Цеткин, 27А, Пермь",
+      "yandex_maps_url": "https://yandex.ru/maps/org/x_o_lounge/169063308463/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Gustoû",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар",
+      "address": "Октябрьская ул., 14, Кисловодск",
+      "yandex_maps_url": "https://yandex.ru/maps/org/gusto_/105066092007/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "R10",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар",
+      "address": "ул. Александра Невского, 20, Уфа",
+      "yandex_maps_url": "https://yandex.ru/maps/org/r10/147480528919/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Hookah Готэм Bar",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, кафе",
+      "address": "ул. Шевченко, 65, Смоленск, этаж 2",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookah_gotem_bar/56320529428/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Infinity lounge bar",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар",
+      "address": "ул. Карла Маркса, 288, Темрюк",
+      "yandex_maps_url": "https://yandex.ru/maps/org/infinity_lounge_bar/47739599964/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Хука Плейс",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, игровые приставки",
+      "address": "ул. имени Архитектора Н.П. Краснова, 3Б, Ялта",
+      "yandex_maps_url": "https://yandex.ru/maps/org/khuka_pleys/1772601014/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "HookahPlace Siberia",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "Нагатинская ул., 16, Москва, этаж 2",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahplace_siberia/13061822700/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Эйс Хука",
+      "hours": "12:00 - 01:00",
+      "category": "Кальян-бар, кафе",
+      "address": "ул. Гоголя, 21, Севастополь",
+      "yandex_maps_url": "https://yandex.ru/maps/org/eys_khuka/1392215473/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Ni Hua Hua",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, кафе",
+      "address": "пер. Химиков, 4, Екатеринбург",
+      "yandex_maps_url": "https://yandex.ru/maps/org/ni_hua_hua/4154143209/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Black hookah",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар",
+      "address": "ул. А.Г. Стаханова, 49А, Липецк, этаж 2",
+      "yandex_maps_url": "https://yandex.ru/maps/org/black_hookah/198815794173/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Не усложняй",
+      "hours": "12:00 - 01:00",
+      "category": "Кальян-бар, чайная",
+      "address": "ул. Карбышева, 40А, Казань",
+      "yandex_maps_url": "https://yandex.ru/maps/org/ne_uslozhnyay/24179758068/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Тайга",
+      "hours": "12:00 - 01:00",
+      "category": "Кальян-бар, кафе",
+      "address": "Октябрьский просп., 5, Люберцы",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tayga/199515614415/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Hookah lounge bar",
+      "hours": "16:00 - 22:00",
+      "category": "Кальян-бар, бар",
+      "address": "просп. Ленина, 41, Томск, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookah_lounge_bar/1191626850/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Дуть",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, бар",
+      "address": "ул. Федерации, 20, Ульяновск",
+      "yandex_maps_url": "https://yandex.ru/maps/org/dut/191235880658/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "HookahPlace Marrakech",
+      "hours": "12:00 - 00:00",
+      "category": "Кальян-бар",
+      "address": "Профсоюзная ул., 104, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahplace_marrakech/239336635448/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "HookahPlace Уют",
+      "hours": "12:00 - 00:00",
+      "category": "Кальян-бар, кафе",
+      "address": "Каширское ш., 65, корп. 3, Москва, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahplace_uyut/202639717657/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Были Тут",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, караоке-клуб",
+      "address": "Оранжерейная ул., 15А, Пушкин, этаж 2",
+      "yandex_maps_url": "https://yandex.ru/maps/org/byli_tut/1789252736/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Туман",
+      "hours": "16:00 - 22:00",
+      "category": "Кальян-бар",
+      "address": "ул. Льва Толстого, 16, Хабаровск",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tuman/33433617157/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Chai Raa Lounge",
+      "hours": "12:00 - 22:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "ул. Арбат, 25/36, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/chai_raa_lounge/170819646877/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "742 Лаунж бар",
+      "hours": "12:00 - 00:00",
+      "category": "Кальян-бар, кафе",
+      "address": "Москва, Киевское шоссе, 23-й километр, бульвар Веласкеса, 3, корп. 3",
+      "yandex_maps_url": "https://yandex.ru/maps/org/742_launzh_bar/81027403681/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Friends Hookah Lounge",
+      "hours": "12:00 - 01:00",
+      "category": "Кальян-бар, бар",
+      "address": "Московская ул., 65, Пенза, этаж 2",
+      "yandex_maps_url": "https://yandex.ru/maps/org/friends_hookah_lounge/112476369616/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Хука 2.0",
+      "hours": "12:00 - 01:00",
+      "category": "Кальян-бар",
+      "address": "Октябрьская ул., 341А, Ессентуки",
+      "yandex_maps_url": "https://yandex.ru/maps/org/khuka_2_0/90718138184/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Raccoon house",
+      "hours": "12:00 - 00:00",
+      "category": "Кальян-бар",
+      "address": "Профсоюзная ул., 128, корп. 2, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/raccoon_house/1684849696/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "HookahPlace Baza",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "просп. Вернадского, 86Б, стр. 1, Москва, этаж 3",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahplace_baza/164270883568/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "P. S. Lounge bar",
+      "hours": "12:00 - 00:00",
+      "category": "Кальян-бар, кафе",
+      "address": "Невский просп., 81, Санкт-Петербург",
+      "yandex_maps_url": "https://yandex.ru/maps/org/p_s_lounge_bar/1112671873/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Smoky People",
+      "hours": "12:00 - 03:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "ул. Ленина, 32, Уфа",
+      "yandex_maps_url": "https://yandex.ru/maps/org/smoky_people/1719465414/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Лофт",
+      "hours": "13:00 - 22:00",
+      "category": "Кальян-бар, бар",
+      "address": "ул. Лукашевича, 10В, Омск, этаж 2",
+      "yandex_maps_url": "https://yandex.ru/maps/org/loft/239942630264/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Культура",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, магазин табака и курительных принадлежностей",
+      "address": "ул. Красный Путь, 32, Омск, этаж 0",
+      "yandex_maps_url": "https://yandex.ru/maps/org/kultura/195174007019/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Sb lounge bar",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, бар",
+      "address": "просп. 60-летия Октября, 27, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/sb_lounge_bar/84260241476/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Hookah Bar 11/47",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар",
+      "address": "ул. Мира, 8, Вологда",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookah_bar_11_47/155144197659/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "League Smoke",
+      "hours": "Круглосуточно",
+      "category": "Кальян-бар",
+      "address": "Новосибирск, микрорайон Горский, 53, этаж цокольный",
+      "yandex_maps_url": "https://yandex.ru/maps/org/league_smoke/54399449241/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Маска",
+      "hours": "Круглосуточно",
+      "category": "Кальян-бар, бар",
+      "address": "ул. Хохрякова, 72, Екатеринбург, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/maska/192809839644/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Точка Дыма",
+      "hours": "12:00 - 03:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "ул. Лётчика Бабушкина, 30, стр. 4, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tochka_dyma/41145657007/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Вдуше Lounge",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, кафе",
+      "address": "ул. Революции, 3А, Тула, этаж 4",
+      "yandex_maps_url": "https://yandex.ru/maps/org/vdushe_lounge/1343888191/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Dukh",
+      "hours": "Круглосуточно",
+      "category": "Кальян-бар, ресторан",
+      "address": "Страстной бул., 4, стр. 3, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/dukh/202290720197/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Одинсон",
+      "hours": "12:00 - 01:00",
+      "category": "Кальян-бар",
+      "address": "ул. Лётчика Ларюшина, 4, корп. 2, Люберцы",
+      "yandex_maps_url": "https://yandex.ru/maps/org/odinson/144964811333/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Кальянная Crazy Bear",
+      "hours": "12:00 - 01:00",
+      "category": "Кальян-бар, вейп-шоп",
+      "address": "ул. Семенюка, 11, Дмитров, этаж цокольный",
+      "yandex_maps_url": "https://yandex.ru/maps/org/kalyannaya_crazy_bear/41226759781/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Hookah Place Iskra",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "Тула",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookah_place_iskra/214585487653/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Капсула",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, кафе",
+      "address": "ул. Дзержинского, 114, Ставрополь, этаж Цокольный",
+      "yandex_maps_url": "https://yandex.ru/maps/org/kapsula/6990878238/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Табаго",
+      "hours": "12:00 - 01:00",
+      "category": "Кальян-бар",
+      "address": "ул. Лопатина, 26, Ковров",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tabago/205115049544/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Realhookah",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, безалкогольный бар",
+      "address": "ул. Жданова, 14, Ростов-на-Дону",
+      "yandex_maps_url": "https://yandex.ru/maps/org/realhookah/13433037772/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Nirvana",
+      "hours": "15:00 - 22:00",
+      "category": "Кальян-бар, магазин табака и курительных принадлежностей",
+      "address": "ул. Некрасова, 76, Уссурийск",
+      "yandex_maps_url": "https://yandex.ru/maps/org/nirvana/168006482596/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Hookah House",
+      "hours": "12:00 - 01:00",
+      "category": "Кальян-бар, кафе",
+      "address": "ул. Куконковых, 112, Иваново",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookah_house/235768496332/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Кальян-бар Публика",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, настольные игры",
+      "address": "ул. Карла Либкнехта, 13А, Кисловодск",
+      "yandex_maps_url": "https://yandex.ru/maps/org/kalyan_bar_publika/135117031401/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Spark Lounge Bar",
+      "hours": "12:00 - 04:00",
+      "category": "Кальян-бар, караоке-кабинка",
+      "address": "просп. Ленина, 30Е, Стерлитамак",
+      "yandex_maps_url": "https://yandex.ru/maps/org/spark_lounge_bar/170838885668/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Bamboo Lounge",
+      "hours": "12:00 - 04:00",
+      "category": "Кальян-бар, бар",
+      "address": "Москва, Николо-Хованская ул., 28, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/bamboo_lounge/23647118412/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Vozduh",
+      "hours": "12:00 - 01:00",
+      "category": "Кальян-бар, магазин табака",
+      "address": "ул. Мира, 42С, Волжский, этаж 2",
+      "yandex_maps_url": "https://yandex.ru/maps/org/vozduh/87895383736/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Two Smoke",
+      "hours": "12:00 - 01:00",
+      "category": "Кальян-бар, кафе",
+      "address": "ул. Чугунова, 18Б, Раменское",
+      "yandex_maps_url": "https://yandex.ru/maps/org/two_smoke/1726593068/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Ивентс бар",
+      "hours": "12:00 - 01:00",
+      "category": "Кальян-бар, кафе",
+      "address": "Пролетарская ул., 50А, Балашиха",
+      "yandex_maps_url": "https://yandex.ru/maps/org/ivents_bar/91463866589/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Abu-Dhabi lounge bar",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, караоке-кабинка",
+      "address": "ул. Евдокимова, 37А, Ростов-на-Дону",
+      "yandex_maps_url": "https://yandex.ru/maps/org/abu_dhabi_lounge_bar/82541539331/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Дом Кальянного Мастера",
+      "hours": "12:00 - 22:00",
+      "category": "Кальян-бар",
+      "address": "Светланская ул., 23, Владивосток, этаж 2",
+      "yandex_maps_url": "https://yandex.ru/maps/org/dom_kalyannogo_mastera/79741588216/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Смокинг Лаунж",
+      "hours": "12:00 - 01:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "просп. Ветеранов, 169, корп. 6, Санкт-Петербург",
+      "yandex_maps_url": "https://yandex.ru/maps/org/smoking_launzh/205916593740/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Колба",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, бар",
+      "address": "Пушкинская ул., 268Г, Ижевск",
+      "yandex_maps_url": "https://yandex.ru/maps/org/kolba/184146051857/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Ave Smoke Lounge",
+      "hours": "12:00 - 00:00",
+      "category": "Кальян-бар, настольные игры",
+      "address": "ул. Ленина, 86, Орехово-Зуево, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/ave_smoke_lounge/126443778708/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Taganka Lounge",
+      "hours": "12:00 - 00:00",
+      "category": "Кальян-бар, кафе",
+      "address": "Таганская ул., 24, стр. 4, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/taganka_lounge/1757821840/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Original Place",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "просп. Ленина, 2/5, Балашиха",
+      "yandex_maps_url": "https://yandex.ru/maps/org/original_place/1738816284/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Алиби Лаунж",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "ул. Малыгина, 1, стр. 2, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/alibi_launzh/72988265940/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Эндорфин",
+      "hours": "12:00 - 03:00",
+      "category": "Кальян-бар, кафе",
+      "address": "просп. Косыгина, 27, корп. 1, Санкт-Петербург",
+      "yandex_maps_url": "https://yandex.ru/maps/org/endorfin/1920209970/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Крафт hookah",
+      "hours": "12:00 - 01:00",
+      "category": "Кальян-бар",
+      "address": "ул. Фридриха Энгельса, 6, Петрозаводск",
+      "yandex_maps_url": "https://yandex.ru/maps/org/kraft_hookah/39956026387/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Мята Platinum",
+      "hours": "12:00 - 05:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "ул. Мичуринский Проспект, Олимпийская Деревня, вл19с1, Москва, этаж 2",
+      "yandex_maps_url": "https://yandex.ru/maps/org/myata_platinum/119871199659/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "17/19 Hookah Project",
+      "hours": "12:00 - 01:00",
+      "category": "Кальян-бар",
+      "address": "ул. Чернышевского, 28, Казань",
+      "yandex_maps_url": "https://yandex.ru/maps/org/17_19_hookah_project/33957824504/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Syndicate lounge",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, магазин табака",
+      "address": "просп. Победы, 3В, Кстово, этаж 2",
+      "yandex_maps_url": "https://yandex.ru/maps/org/syndicate_lounge/216435162016/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Кальяно Лофт",
+      "hours": "12:00 - 00:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "ул. А.Г. Стаханова, 52, Липецк, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/kalyano_loft/46843462620/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Stories Bar",
+      "hours": "12:00 - 01:00",
+      "category": "Бар, кальян-бар",
+      "address": "Большая Советская ул., 17, Смоленск",
+      "yandex_maps_url": "https://yandex.ru/maps/org/stories_bar/206562319599/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "HookahPlace Volkova",
+      "hours": "12:00 - 01:00",
+      "category": "Кальян-бар",
+      "address": "ул. Волкова, 70, Казань, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahplace_volkova/1316877679/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Смокинг",
+      "hours": "12:00 - 01:00",
+      "category": "Кальян-бар, безалкогольный бар",
+      "address": "Центральная ул., 179А/1, д. Дергаево",
+      "yandex_maps_url": "https://yandex.ru/maps/org/smoking/100797194004/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Сарказм",
+      "hours": "12:00 - 01:00",
+      "category": "Кальян-бар, спортбар",
+      "address": "Москва, Скандинавский бульвар, 3, корп. 2",
+      "yandex_maps_url": "https://yandex.ru/maps/org/sarkazm/70646643729/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Gravity Lounge",
+      "hours": "12:00 - 01:00",
+      "category": "Кальян-бар, безалкогольный бар",
+      "address": "ул. Пушкина, 5, корп. 2, Ярославль, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/gravity_lounge/176872588910/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Кальянная",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар",
+      "address": "Советская ул., 12, Курск",
+      "yandex_maps_url": "https://yandex.ru/maps/org/kalyannaya/14028873225/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Хука Тайм",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, караоке-клуб",
+      "address": "Вознесенская ул., 45/11, Сергиев Посад, этаж 3",
+      "yandex_maps_url": "https://yandex.ru/maps/org/khuka_taym/31447721409/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Hills Hookah",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, кафе",
+      "address": "Носовихинское ш., 21В, Реутов, этаж 2",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hills_hookah/157854042997/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Мята Lounge Nord",
+      "hours": "12:00 - 22:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "Старое Дмитровское ш., 2, стр. 1, Долгопрудный, этаж 2",
+      "yandex_maps_url": "https://yandex.ru/maps/org/myata_lounge_nord/148671987008/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Густой",
+      "hours": "12:00 - 01:00",
+      "category": "Кальян-бар",
+      "address": "ул. Ленина, 4, Тюмень",
+      "yandex_maps_url": "https://yandex.ru/maps/org/gustoy/1750171720/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Sova Lounge Bar",
+      "hours": "12:00 - 03:00",
+      "category": "Кальян-бар, кафе",
+      "address": "ул. Молокова, 5А, Сочи",
+      "yandex_maps_url": "https://yandex.ru/maps/org/sova_lounge_bar/92262023123/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Loft Lounge bar",
+      "hours": "14:00 - 22:00",
+      "category": "Кальян-бар, кафе",
+      "address": "Линейная ул., 86, Красноярск",
+      "yandex_maps_url": "https://yandex.ru/maps/org/loft_lounge_bar/1463267682/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "HookahPlace Azulik",
+      "hours": "12:00 - 00:00",
+      "category": "Кальян-бар",
+      "address": "Большая Новодмитровская ул., 23, стр. 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahplace_azulik/26057456828/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Cactus J.",
+      "hours": "12:00 - 03:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "ул. Шаболовка, 59, корп. 1А",
+      "yandex_maps_url": "https://yandex.ru/maps/org/cactus_j_/10567770012/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "HookahPlace Futura",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "Никольская ул., 19-21/1, этаж 2",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahplace_futura/18910828613/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Хвояlounge",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, антикафе",
+      "address": "Подсосенский пер., 23, стр. 4, этаж 2",
+      "yandex_maps_url": "https://yandex.ru/maps/org/khvoyalounge/242607127089/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Tangiers Lounge",
+      "hours": "12:00 - 05:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "Арбатский пер., 2/6",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tangiers_lounge/109363937465/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Библиотека Shisha Lounge",
+      "hours": "12:00 - 05:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "ул. Маросейка, 2/15с1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/biblioteka_shisha_lounge/77291562852/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Hookahplace Red Rose",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар",
+      "address": "ул. Тимура Фрунзе, 11, стр. 13",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahplace_red_rose/11626906677/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Mad Steam",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, настольные игры",
+      "address": "1-я Квесисская ул., 18",
+      "yandex_maps_url": "https://yandex.ru/maps/org/mad_steam/30781235864/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "HookahPlace Cave",
+      "hours": "12:00 - 03:00",
+      "category": "Кальян-бар",
+      "address": "ул. Серпуховский Вал, 21",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahplace_cave/161137807662/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "HookahPlace",
+      "hours": "12:00 - 01:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "ул. Большая Полянка, 21, стр. 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahplace/15524072790/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Барвиха Lounge",
+      "hours": "12:00 - 03:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "Ветошный пер., 13",
+      "yandex_maps_url": "https://yandex.ru/maps/org/barvikha_lounge/77192553743/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "HookahPlace Blacks",
+      "hours": "12:00 - 00:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "Новослободская ул., 14/19с4",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahplace_blacks/63012125824/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Hookah Place",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар",
+      "address": "ул. Петровка, 26, стр. 3, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookah_place/154385561634/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "HookahPlace Vibes",
+      "hours": "12:00 - 01:00",
+      "category": "Кальян-бар, коворкинг",
+      "address": "Шмитовский пр., 39, корп. 1, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahplace_vibes/31863370908/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Bobo Lounge",
+      "hours": "12:00 - 05:00",
+      "category": "Кальян-бар, кафе",
+      "address": "Большая Садовая ул., 5, корп. 1, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/bobo_lounge/13914165086/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Tangiers Lounge Typography",
+      "hours": "12:00 - 22:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "Пятницкая ул., 71/5с2, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tangiers_lounge_typography/82546231132/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "HookahPlace Кайдзен",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар",
+      "address": "Стремянный пер., 2, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahplace_kaydzen/89407633342/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Par Bar",
+      "hours": "12:00 - 00:00",
+      "category": "Кальян-бар, кафе",
+      "address": "Спиридоньевский пер., 6, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/par_bar/146747523697/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Хроники Акаши",
+      "hours": "12:00 - 00:00",
+      "category": "Кальян-бар",
+      "address": "ул. Малая Дмитровка, 24/2с2, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/khroniki_akashi/229887190861/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Бали Лаунж",
+      "hours": "12:00 - 01:00",
+      "category": "Кальян-бар, кафе",
+      "address": "Зубовский бул., 21-23с1, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/bali_launzh/55073905331/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Танжирс Лаунж",
+      "hours": "12:00 - 00:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "ул. Покровка, 31, стр. 4, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tanzhirs_launzh/80870572966/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Plata Lounge & Gastro bar",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "Кудринская площадь, 1, стр. 1, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/plata_lounge_gastro_bar/165343517868/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Hookah Place Depo",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар",
+      "address": "Лесная ул., 55, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookah_place_depo/143524474144/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "HookahPlace Art",
+      "hours": "12:00 - 00:00",
+      "category": "Кальян-бар",
+      "address": "наб. Марка Шагала, 1, корп. 2, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahplace_art/29392223161/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Smoker's Street",
+      "hours": "12:00 - 00:30",
+      "category": "Кальян-бар, коворкинг",
+      "address": "Весковский пер., 2, стр. 1, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/smoker_s_street/1743522339/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "HookahPlace Изакая",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар",
+      "address": "Хорошёвское ш., 27, Москва, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahplace_izakaya/155800730665/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "HookahPlace Symbol",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар",
+      "address": "пр. Невельского, 6, корп. 2, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahplace_symbol/115334226882/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Shisha lounge room № 257",
+      "hours": "12:00 - 01:00",
+      "category": "Кальян-бар, организация мероприятий",
+      "address": "Черниговский пер., 1/6, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/shisha_lounge_room_257/197823834425/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "HookahPlace Wellton",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар",
+      "address": "ул. Народного Ополчения, 15, корп. 2",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahplace_wellton/160709927306/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Менделеев Лаунж",
+      "hours": "12:00 - 02:00",
+      "category": "Бар, кальян-бар",
+      "address": "Новослободская ул., 31, стр. 4",
+      "yandex_maps_url": "https://yandex.ru/maps/org/mendeleyev_launzh/212404643824/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Мята Lounge",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "Новокузнецкая ул., 11/13, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/myata_lounge/3192664100/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Апартмент",
+      "hours": "12:00 - 00:00",
+      "category": "Кальян-бар, кафе",
+      "address": "Мясницкая ул., 18",
+      "yandex_maps_url": "https://yandex.ru/maps/org/apartment/155636975560/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Timeless",
+      "hours": "12:00 - 03:00",
+      "category": "Кальян-бар, бар",
+      "address": "Никитский пер., 7, стр. 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/timeless/86691883745/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Кафе кальян",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, кафе",
+      "address": "Новослободская ул., 14/19с8, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/kafe_kalyan/183033131672/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Культура",
+      "hours": "12:00 - 00:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "ул. Солянка, 4, стр. 4",
+      "yandex_maps_url": "https://yandex.ru/maps/org/kultura/99177974092/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Blisski",
+      "hours": "12:00 - 05:00",
+      "category": "Бар, кальян-бар",
+      "address": "просп. Мира, 21, стр. 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/blisski/102442329824/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Mos lounge & bar",
+      "hours": "12:00 - 05:00",
+      "category": "Кальян-бар, кофейня",
+      "address": "Большая Татарская ул., 5",
+      "yandex_maps_url": "https://yandex.ru/maps/org/mos_lounge_bar/153985284848/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "I'm Smoking",
+      "hours": "12:00 - 00:45",
+      "category": "Кальян-бар, ресторан",
+      "address": "Староваганьковский пер., 19, стр. 7",
+      "yandex_maps_url": "https://yandex.ru/maps/org/i_m_smoking/1399586602/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Марракеш",
+      "hours": "12:00 - 00:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "ул. Усачёва, 26",
+      "yandex_maps_url": "https://yandex.ru/maps/org/marrakesh/50414743051/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Дуть",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, бар",
+      "address": "ул. Маросейка, 4/2с1, этаж 2",
+      "yandex_maps_url": "https://yandex.ru/maps/org/dut/90243535615/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Ember Lounge",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар",
+      "address": "Новослободская ул., 10, стр. 2",
+      "yandex_maps_url": "https://yandex.ru/maps/org/ember_lounge/201755084945/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Bro Lounge",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, игровые приставки",
+      "address": "ул. Земляной Вал, 8, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/bro_lounge/22959051230/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Кальянная Сквот",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "ул. Шаболовка, 2, стр. 1, этаж 5",
+      "yandex_maps_url": "https://yandex.ru/maps/org/kalyannaya_skvot/146091917927/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Политех",
+      "hours": "12:00 - 05:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "Лубянский пр., 5, стр. 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/politekh/86357216713/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Magma Lounge",
+      "hours": "12:00 - 05:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "Пресненская наб., 6, стр. 2",
+      "yandex_maps_url": "https://yandex.ru/maps/org/magma_lounge/99892816150/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Мята Platinum Тверская",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, кафе",
+      "address": "Тверская ул., 12, стр. 2, этаж цокольный",
+      "yandex_maps_url": "https://yandex.ru/maps/org/myata_platinum_tverskaya/38362005571/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Pipe",
+      "hours": "12:00 - 00:00",
+      "category": "Кальян-бар",
+      "address": "Лесная ул., 20, стр. 8",
+      "yandex_maps_url": "https://yandex.ru/maps/org/pipe/174484192038/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "People",
+      "hours": "12:00 - 22:00",
+      "category": "Кальян-бар, кофе с собой",
+      "address": "Подкопаевский пер., 4, стр. 7",
+      "yandex_maps_url": "https://yandex.ru/maps/org/people/33816607989/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Отокомае",
+      "hours": "12:00 - 00:00",
+      "category": "Кальян-бар",
+      "address": "ул. Кузнецкий Мост, 9",
+      "yandex_maps_url": "https://yandex.ru/maps/org/otokomaye/77283985557/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Beaumonde lounge",
+      "hours": "12:00 - 06:00",
+      "category": "Кальян-бар",
+      "address": "Тверская ул., 9А, стр. 2",
+      "yandex_maps_url": "https://yandex.ru/maps/org/beaumonde_lounge/69376715877/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Paradox Lounge",
+      "hours": "12:00 - 01:00",
+      "category": "Кальян-бар, антикафе",
+      "address": "Гончарная наб., 9/16с1, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/paradox_lounge/135794440678/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Nargilia Lounge",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар",
+      "address": "ул. Тевосяна, 25, Электросталь, этаж 5",
+      "yandex_maps_url": "https://yandex.ru/maps/org/nargilia_lounge/201713149239/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Тема Lounge & bar",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "ул. 3-го Интернационала, 73, Ногинск, этаж 2",
+      "yandex_maps_url": "https://yandex.ru/maps/org/tema_lounge_bar/3415849741/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Malina",
+      "hours": "12:00 - 03:00",
+      "category": "Кальян-бар, бар",
+      "address": "ул. Чехова, 2, Балашиха",
+      "yandex_maps_url": "https://yandex.ru/maps/org/malina/1285289469/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Lucky Lounge 2.0",
+      "hours": "Круглосуточно",
+      "category": "Кальян-бар, безалкогольный бар",
+      "address": "ул. Большая Полянка, 51А/9, Москва, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/lucky_lounge_2_0/25623264377/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "HookahPlace Glow",
+      "hours": "12:00 - 00:00",
+      "category": "Кальян-бар",
+      "address": "Октябрьская ул., 67, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahplace_glow/180350264498/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "HookahPlace Lago",
+      "hours": "12:00 - 01:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "Озёрная ул., 33, Москва, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahplace_lago/20264704369/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "HookahPlace Wild",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "ул. Лобачевского, 37, стр. 1, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahplace_wild/221192163923/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Vozduh",
+      "hours": "12:00 - 03:00",
+      "category": "Кальян-бар",
+      "address": "Рязанский просп., 32, корп. 3, Москва, этаж цокольный",
+      "yandex_maps_url": "https://yandex.ru/maps/org/vozduh/239290082008/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Atmosphere cafe & lounge",
+      "hours": "12:00 - 01:00",
+      "category": "Кальян-бар, бар",
+      "address": "3-й Автозаводский пр., 3, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/atmosphere_cafe_lounge/215540336717/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "HookahPlace Маркс",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, кафе",
+      "address": "ул. Большие Каменщики, 9, стр. Д, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahplace_marks/206755193471/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "HookahPlace Баррель",
+      "hours": "Круглосуточно",
+      "category": "Кальян-бар",
+      "address": "Ленинский просп., 61/1, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahplace_barrel/138981358863/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Mos-hookah",
+      "hours": "Круглосуточно",
+      "category": "Кальян-бар, кейтеринг",
+      "address": "ул. Правды, 7/9к1, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/mos_hookah/189451187625/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "HookahPlace Finch",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "Кустанайская ул., 10А, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahplace_finch/245563494507/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Gangster Gatsby",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "ул. Рогожский Вал, 5, стр. 13, Москва, этаж 2",
+      "yandex_maps_url": "https://yandex.ru/maps/org/gangster_gatsby/83038868648/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Yaffo Hookah",
+      "hours": "12:00 - 23:00",
+      "category": "Кальян-бар, кафе",
+      "address": "Измайловский пр., 5А, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/yaffo_hookah/137321660139/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Brooklyn Hookah",
+      "hours": "12:00 - 00:00",
+      "category": "Кальян-бар, кафе",
+      "address": "Большая Черёмушкинская ул., 1, Москва, этаж 3",
+      "yandex_maps_url": "https://yandex.ru/maps/org/brooklyn_hookah/102074934974/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Otium Lounge",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, настольные игры",
+      "address": "ул. Усачёва, 10, стр. 1, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/otium_lounge/226445042921/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Вандал лаунж & бар",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, бар",
+      "address": "ул. Академика Миллионщикова, 7, корп. 1, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/vandal_launzh_bar/185267556844/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Mos Lounge & Bar",
+      "hours": "12:00 - 05:00",
+      "category": "Кальян-бар, спортбар",
+      "address": "Братиславская ул., 13, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/mos_lounge_bar/245001503753/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "HookahPlace Карма",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "Юбилейный просп., 76, Реутов",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahplace_karma/11835258338/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Hookah dealers lounge",
+      "hours": "12:00 - 00:00",
+      "category": "Кальян-бар, киберспорт",
+      "address": "ул. Берзарина, 28А, корп. 2, Москва, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookah_dealers_lounge/26310393696/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "T&S Lounge",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "Братиславская ул., 31, корп. 1, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/t_s_lounge/1615029793/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Heavy Haze",
+      "hours": "12:00 - 00:00",
+      "category": "Кальян-бар, суши-бар",
+      "address": "Нижегородская ул., 25, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/heavy_haze/228018090849/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Pods",
+      "hours": "12:00 - 03:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "ул. Грузинский Вал, 11, стр. 3, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/pods/105437668763/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Ром & Дым",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, кафе",
+      "address": "Никитинская ул., 17, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/rom_dym/189718226062/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Chilling",
+      "hours": "12:00 - 03:00",
+      "category": "Кальян-бар, бар",
+      "address": "Спартаковский пер., 2, стр. 1, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/chilling/128107464824/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Secret Lounge",
+      "hours": "12:00 - 03:00",
+      "category": "Кальян-бар, безалкогольный бар",
+      "address": "Яузская ул., 5, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/secret_lounge/212334646886/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Полемика лаунж",
+      "hours": "12:00 - 00:00",
+      "category": "Кальян-бар, кафе",
+      "address": "Оружейный пер., 13, стр. 2, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/polemika_launzh/242618625675/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "PS lounge",
+      "hours": "12:00 - 01:00",
+      "category": "Кальян-бар, антикафе",
+      "address": "6-я Радиальная ул., 5, корп. 4, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/ps_lounge/172043905233/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Times",
+      "hours": "12:00 - 03:00",
+      "category": "Кальян-бар",
+      "address": "3-я Парковая ул., 57, Москва, этаж 2",
+      "yandex_maps_url": "https://yandex.ru/maps/org/times/201315091724/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Кисски",
+      "hours": "12:00 - 06:00",
+      "category": "Бар, кальян-бар",
+      "address": "Сретенский бул., 1, корп. 4, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/kisski/135731563531/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Ostrov Lounge Depo",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар",
+      "address": "Новолесная ул., 8/12, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/ostrov_lounge_depo/35287130561/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "HookahPlace Ultimate",
+      "hours": "12:00 - 05:00",
+      "category": "Кальян-бар",
+      "address": "Малая Никитская ул., 24, стр. 1, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookahplace_ultimate/137152364346/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Обнял Кальянная",
+      "hours": "12:00 - 00:00",
+      "category": "Кальян-бар, кафе",
+      "address": "Бауманская ул., 47, Москва, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/obnyal_kalyannaya/204887540128/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Мята Platinum Депо",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, кафе",
+      "address": "Лесная ул., 35/2, Москва, этаж -1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/myata_platinum_depo/202180593282/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Зевс",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар",
+      "address": "ул. Брусилова, 41, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/zevs/135646955291/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Клюква Lounge",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, настольные игры",
+      "address": "Верхняя Первомайская ул., 36, стр. 1, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/klyukva_lounge/1443439022/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Забивочка",
+      "hours": "12:00 - 01:00",
+      "category": "Кальян-бар",
+      "address": "Рязанский просп., 34, корп. 2, Москва, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/zabivochka/170421737884/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Chorse Lounge",
+      "hours": "12:00 - 03:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "Дмитровское ш., 71Б, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/chorse_lounge/21829302416/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "La Brume",
+      "hours": "12:00 - 00:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "Нижний Сусальный пер., 5, стр. 10, Москва, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/la_brume/150438037085/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Редвуд",
+      "hours": "12:00 - 00:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "Пресненская наб., 10, стр. 2, Москва, этаж 3",
+      "yandex_maps_url": "https://yandex.ru/maps/org/redvud/101684065284/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Лайм Лаунж",
+      "hours": "12:00 - 03:00",
+      "category": "Кальян-бар, ресторан",
+      "address": "Братиславская ул., 6, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/laym_launzh/185091120308/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Сатир Лаунж",
+      "hours": "12:00 - 01:00",
+      "category": "Кальян-бар, организация мероприятий",
+      "address": "Лыщиков пер., 5, стр. 1, Москва, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/satir_launzh/146525194566/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Humans",
+      "hours": "Круглосуточно",
+      "category": "Кальян-бар",
+      "address": "Большая Новодмитровская ул., 36, стр. 7, Москва",
+      "yandex_maps_url": "https://yandex.ru/maps/org/humans/94101505123/",
+      "website": "",
+      "phone": ""
+    },
+    {
+      "name": "Hookah",
+      "hours": "12:00 - 02:00",
+      "category": "Кальян-бар, безалкогольный бар",
+      "address": "Люблинская ул., 163/1, Москва, этаж 1",
+      "yandex_maps_url": "https://yandex.ru/maps/org/hookah/27712874568/",
+      "website": "",
+      "phone": ""
+    }
+  ]
+}

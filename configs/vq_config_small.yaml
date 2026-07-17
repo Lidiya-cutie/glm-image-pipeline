@@ -1,0 +1,50 @@
+# =============================================================================
+# Small VQ Config for Testing (1 GPU, 24GB VRAM)
+# =============================================================================
+
+vq_model:
+  name: "semantic-vq-encoder-small"
+  
+  encoder:
+    backbone: "vit_base_patch16_224"  # Smaller ViT
+    pretrained: true
+    freeze_backbone: true  # Freeze to save memory
+    
+    projection:
+      input_dim: 768  # ViT-B output
+      hidden_dims: [1024]
+      output_dim: 512  # Smaller embedding
+      activation: "gelu"
+      dropout: 0.1
+      
+    patch_size: 16
+    
+  codebook:
+    num_embeddings: 8192  # Smaller codebook
+    embedding_dim: 512
+    commitment_cost: 0.25
+    use_ema: true
+    ema_decay: 0.99
+    
+  decoder:
+    architecture: "cnn"
+    cnn:
+      channels: [512, 256, 128, 64]
+      kernel_sizes: [3, 3, 3, 3]
+
+layout_grid:
+  supported_resolutions:
+    - [256, 256]   # 16×16 = 256 tokens
+    - [512, 512]   # 32×32 = 1024 tokens
+    - [512, 768]   # 32×48 = 1536 tokens
+
+training:
+  batch_size: 8
+  lr: 1e-4
+  num_epochs: 50
+  mixed_precision: "fp16"
+  
+  loss_weights:
+    reconstruction: 1.0
+    commitment: 0.25
+    perceptual: 0.1

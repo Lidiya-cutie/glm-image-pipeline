@@ -1,0 +1,109 @@
+# GLM-Image Model Configuration
+
+# =============================================================================
+# AR Model (9B) - Autoregressive Semantic Token Generator
+# =============================================================================
+ar_model:
+  name: "glm-image-ar-9b"
+  base_model: "THUDM/glm-4-9b-chat"  # Инициализация из GLM-4
+  
+  architecture:
+    hidden_size: 4096
+    intermediate_size: 13696
+    num_hidden_layers: 40
+    num_attention_heads: 32
+    num_key_value_heads: 8  # GQA
+    vocab_size: 151552  # Текст + VQ токены
+    max_position_embeddings: 131072
+    rope_theta: 10000.0
+    attention_dropout: 0.0
+    hidden_dropout: 0.0
+    
+  # Расширение vocab для VQ токенов
+  vq_vocab:
+    start_id: 135168  # После текстовых токенов
+    size: 16384  # Размер VQ кодбука
+    
+  # Специальные токены
+  special_tokens:
+    bos_token_id: 1
+    eos_token_id: 2
+    pad_token_id: 0
+    image_start_id: 135000  # <|image_start|>
+    image_end_id: 135001    # <|image_end|>
+    
+  generation:
+    max_vq_tokens: 4096  # 64x64 grid
+    temperature: 0.9
+    top_p: 0.95
+    top_k: 50
+    repetition_penalty: 1.0
+
+# =============================================================================
+# DiT Decoder (7B) - Diffusion Transformer
+# =============================================================================
+dit_decoder:
+  name: "glm-image-dit-7b"
+  
+  architecture:
+    hidden_size: 3072
+    num_layers: 32
+    num_heads: 24
+    mlp_ratio: 4.0
+    patch_size: 2
+    in_channels: 4  # VAE latent channels
+    
+    # Conditioning
+    text_embed_dim: 4096  # From AR model
+    vq_embed_dim: 1024    # VQ embedding dim
+    
+    # Positional encoding
+    pos_embed_type: "rope_2d"
+    max_resolution: 2048
+    
+  diffusion:
+    type: "flow_matching"  # или "ddpm"
+    num_timesteps: 1000
+    sigma_min: 0.002
+    sigma_max: 80.0
+    
+    # Sampler
+    sampler: "euler"  # euler, heun, dpm++
+    cfg_scale: 7.5
+    
+  vae:
+    name: "stabilityai/sd-vae-ft-mse"
+    scale_factor: 0.18215
+
+# =============================================================================
+# Glyph Encoder - OCR for RL
+# =============================================================================
+glyph_encoder:
+  name: "glyph-encoder-ocr"
+  
+  # Multi-backend OCR
+  backends:
+    - name: "paddleocr"
+      lang: ["ch", "en"]
+      use_angle_cls: true
+      det_model_dir: null  # Auto download
+      rec_model_dir: null
+      
+    - name: "easyocr"
+      lang: ["ch_sim", "en"]
+      gpu: true
+      
+  # Feature extraction для conditioning
+  feature_extractor:
+    backbone: "resnet50"
+    output_dim: 512
+    
+  # Confidence threshold
+  min_confidence: 0.5
+
+# =============================================================================
+# VQ Encoder/Decoder
+# =============================================================================
+vq_encoder:
+  # См. vq_config.yaml для полной спецификации
+  config_path: "configs/vq_config.yaml"

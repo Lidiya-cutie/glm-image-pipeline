@@ -1,0 +1,205 @@
+# =============================================================================
+# Semantic VQ Codebook Configuration
+# =============================================================================
+# 
+# Схема данных для семантических VQ токенов:
+# 
+# 1. ENCODER: Image → Latent → VQ Tokens
+#    - Входное изображение: H×W×3 (RGB)
+#    - Патчификация: H/patch_size × W/patch_size
+#    - Каждый патч → embedding → nearest codebook vector → token ID
+#
+# 2. CODEBOOK: Дискретное пространство семантики
+#    - 16384 векторов (2^14) - достаточно для семантического разнообразия
+#    - 1024-dim embeddings - совместимо с AR моделью
+#    - EMA updates для стабильности
+#
+# 3. DECODER: VQ Tokens → Latent → Image (в DiT пайплайне)
+#    - VQ embeddings используются как conditioning для DiT
+#
+# Layout Grid:
+# - 1024×1024 image → 64×64 grid = 4096 tokens
+# - 512×512 image → 32×32 grid = 1024 tokens
+# - Разрешение должно быть кратно 32 (patch_size × некоторый множитель)
+#
+# =============================================================================
+
+vq_model:
+  name: "semantic-vq-encoder"
+  
+  # ==========================================================================
+  # Encoder Architecture
+  # ==========================================================================
+  encoder:
+    # Backbone для извлечения фичей
+    backbone: "vit_large_patch16_384"  # ViT-L/16
+    pretrained: true
+    freeze_backbone: false
+    
+    # Или CNN backbone:
+    # backbone: "convnext_large"
+    
+    # Projection head
+    projection:
+      input_dim: 1024  # ViT-L output dim
+      hidden_dims: [2048, 1024]
+      output_dim: 1024  # == codebook embedding dim
+      activation: "gelu"
+      dropout: 0.1
+      
+    # Spatial settings
+    patch_size: 16  # Размер патча в пикселях
+    # Итоговая сетка: H/16 × W/16
+    # Для 1024×1024: 64×64 = 4096 токенов
+    
+  # ==========================================================================
+  # Vector Quantization Codebook
+  # ==========================================================================
+  codebook:
+    # Основные параметры
+    num_embeddings: 16384     # Размер кодбука (2^14)
+    embedding_dim: 1024       # Размерность каждого вектора
+    
+    # Инициализация
+    init_method: "uniform"    # uniform, normal, kmeans
+    init_scale: 1.0
+    
+    # EMA updates (предпочтительнее gradient updates)
+    use_ema: true
+    ema_decay: 0.99
+    ema_epsilon: 1e-5
+    
+    # Commitment loss
+    commitment_cost: 0.25     # β в β * ||z_e - sg[e]||^2
+    
+    # Codebook usage
+    codebook_usage_threshold: 1.0  # Минимальное использование для reset
+    reset_unused_codes: true
+    reset_patience: 100  # Эпохи до reset
+    
+    # Продвинутые техники
+    use_cosine_similarity: false  # L2 vs cosine distance
+    normalize_embeddings: false
+    
+    # Hierarchical VQ (опционально)
+    hierarchical:
+      enabled: false
+      num_levels: 2
+      level_sizes: [4096, 16384]  # Coarse → Fine
+      
+  # ==========================================================================
+  # Decoder (для реконструкции, не для DiT)
+  # ==========================================================================
+  decoder:
+    # Decoder используется при обучении VQ encoder
+    # В инференсе DiT заменяет decoder
+    
+    architecture: "cnn"  # cnn или transformer
+    
+    # CNN decoder
+    cnn:
+      channels: [1024, 512, 256, 128, 64]
+      kernel_sizes: [3, 3, 3, 3, 3]
+      upsample_mode: "nearest"  # nearest, bilinear, transposed_conv
+      
+    # Transformer decoder (альтернатива)
+    transformer:
+      num_layers: 6
+      num_heads: 8
+      mlp_ratio: 4.0
+
+# =============================================================================
+# Layout Grid Specification
+# =============================================================================
+layout_grid:
+  # Поддерживаемые разрешения (все кратны 32)
+  supported_resolutions:
+    - [512, 512]    # 32×32 grid = 1024 tokens
+    - [768, 512]    # 48×32 grid = 1536 tokens
+    - [512, 768]    # 32×48 grid = 1536 tokens
+    - [1024, 1024]  # 64×64 grid = 4096 tokens (default)
+    - [1024, 768]   # 64×48 grid = 3072 tokens
+    - [768, 1024]   # 48×64 grid = 3072 tokens
+    - [1280, 720]   # 80×45 grid = 3600 tokens (16:9)
+    - [720, 1280]   # 45×80 grid = 3600 tokens (9:16)
+    - [1536, 1024]  # 96×64 grid = 6144 tokens
+    - [1024, 1536]  # 64×96 grid = 6144 tokens
+    - [2048, 2048]  # 128×128 grid = 16384 tokens (max)
+    
+  # Grid ordering для авторегрессивной генерации
+  ordering: "raster"  # raster (row-by-row), hilbert, zigzag
+  
+  # Позиционное кодирование
+  position_encoding:
+    type: "sinusoidal_2d"  # sinusoidal_2d, learned, rope_2d
+    max_h: 128
+    max_w: 128
+    
+# =============================================================================
+# Token Representation
+# =============================================================================
+token_representation:
+  # Формат токена в AR последовательности
+  # Token ID = codebook_offset + vq_code_id
+  codebook_offset: 135168  # После текстовых токенов GLM-4
+  
+  # Специальные токены для изображений
+  special_tokens:
+    image_start: "<|image_start|>"
+    image_end: "<|image_end|>"
+    row_sep: "<|row|>"  # Разделитель строк в grid (опционально)
+    
+  # Формат последовательности для AR
+  # [BOS] text_tokens [IMAGE_START] vq_tokens [IMAGE_END] [EOS]
+  
+# =============================================================================
+# Training Settings для VQ Encoder
+# =============================================================================
+training:
+  # Reconstruction loss
+  reconstruction_loss: "mse"  # mse, l1, perceptual
+  
+  # Perceptual loss (если включен)
+  perceptual_loss:
+    enabled: true
+    weight: 0.1
+    network: "vgg19"
+    layers: ["relu1_2", "relu2_2", "relu3_4", "relu4_4"]
+    
+  # Adversarial loss (для качества реконструкции)
+  adversarial_loss:
+    enabled: true
+    weight: 0.1
+    discriminator: "patchgan"
+    
+  # Loss weights
+  loss_weights:
+    reconstruction: 1.0
+    commitment: 0.25
+    perceptual: 0.1
+    adversarial: 0.1
+    codebook_entropy: 0.01  # Для равномерного использования кодов
+    
+  # Optimizer
+  optimizer:
+    name: "adamw"
+    lr: 1e-4
+    betas: [0.9, 0.99]
+    weight_decay: 0.01
+    
+  # Scheduler
+  scheduler:
+    name: "cosine"
+    warmup_steps: 10000
+    min_lr: 1e-6
+    
+  # Batch
+  batch_size: 32
+  gradient_accumulation_steps: 4
+  
+  # Mixed precision
+  mixed_precision: "bf16"
+  
+  # Checkpointing
+  save_every_n_steps: 5000
+  eval_every_n_steps: 1000

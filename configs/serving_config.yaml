@@ -1,0 +1,166 @@
+# =============================================================================
+# vLLM + API Serving Configuration
+# =============================================================================
+
+# =============================================================================
+# vLLM Backend for AR Model
+# =============================================================================
+vllm:
+  # Model settings
+  model:
+    path: "checkpoints/ar-model"
+    tokenizer_path: "checkpoints/ar-model"
+    dtype: "bfloat16"
+    trust_remote_code: true
+    
+  # Engine settings
+  engine:
+    tensor_parallel_size: 4  # Количество GPU для tensor parallelism
+    pipeline_parallel_size: 1
+    max_model_len: 8192  # Max sequence length
+    gpu_memory_utilization: 0.9
+    
+    # Batching
+    max_num_batched_tokens: 32768
+    max_num_seqs: 256
+    
+    # KV cache
+    block_size: 16
+    swap_space: 4  # GB
+    
+    # Speculative decoding (опционально)
+    speculative:
+      enabled: false
+      draft_model: null
+      num_speculative_tokens: 5
+      
+  # Sampling defaults
+  sampling:
+    temperature: 0.9
+    top_p: 0.95
+    top_k: 50
+    max_tokens: 4096  # Max VQ tokens
+    
+  # Server
+  server:
+    host: "0.0.0.0"
+    port: 8000
+    api_key: null
+    
+# =============================================================================
+# DiT Inference Server
+# =============================================================================
+dit_server:
+  model:
+    path: "checkpoints/dit-model"
+    dtype: "bfloat16"
+    
+  # Inference settings
+  inference:
+    num_inference_steps: 50
+    guidance_scale: 7.5
+    scheduler: "euler"  # euler, heun, dpmpp_2m
+    
+  # Multi-GPU inference
+  distributed:
+    enabled: true
+    num_gpus: 4
+    strategy: "data_parallel"  # DiT обычно меньше, data parallel эффективнее
+    
+  # Batching
+  batching:
+    max_batch_size: 8
+    timeout_ms: 100
+    
+  server:
+    host: "0.0.0.0"
+    port: 8001
+
+# =============================================================================
+# Unified API Gateway
+# =============================================================================
+api_gateway:
+  host: "0.0.0.0"
+  port: 8080
+  max_concurrent: 1
+
+  backends:
+    ar_model: "http://localhost:8000"
+    dit_model: "http://localhost:8001"
+    vq_encoder: "http://localhost:8002"
+
+  rate_limit:
+    enabled: false
+    requests_per_minute: 60
+    burst: 10
+
+  request:
+    max_prompt_length: 4096
+    max_resolution: [2048, 2048]
+    timeout_seconds: 120
+
+  cors:
+    enabled: true
+    allow_origins: ["*"]
+    allow_methods: ["GET", "POST"]
+
+  auth:
+    enabled: false
+    api_keys: []
+
+# =============================================================================
+# VQ Encoder Service (для I2I)
+# =============================================================================
+vq_service:
+  model:
+    path: "checkpoints/vq-encoder"
+    dtype: "float32"  # VQ лучше в FP32
+    
+  server:
+    host: "0.0.0.0"
+    port: 8002
+    
+  batching:
+    max_batch_size: 16
+    
+# =============================================================================
+# Glyph Encoder Service (для RL и валидации)
+# =============================================================================
+glyph_service:
+  backends:
+    - name: "paddleocr"
+      enabled: true
+    - name: "easyocr"
+      enabled: true
+      
+  server:
+    host: "0.0.0.0"
+    port: 8003
+    
+# =============================================================================
+# Docker Compose Setup
+# =============================================================================
+docker:
+  # Генерируется автоматически из этого конфига
+  compose_file: "docker-compose.yaml"
+  
+  services:
+    - name: "ar-server"
+      image: "glm-image-ar:latest"
+      gpus: [0, 1, 2, 3]
+      ports: ["8000:8000"]
+      
+    - name: "dit-server"
+      image: "glm-image-dit:latest"
+      gpus: [4, 5, 6, 7]
+      ports: ["8001:8001"]
+      
+    - name: "vq-server"
+      image: "glm-image-vq:latest"
+      gpus: [0]
+      ports: ["8002:8002"]
+      
+    - name: "api-gateway"
+      image: "glm-image-api:latest"
+      ports: ["8080:8080"]
+      depends_on: ["ar-server", "dit-server", "vq-server"]

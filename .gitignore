@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+*.swp
+
+# Artifacts & data
+output/
+outputs/
+logs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+wandb/
+mlruns/
+.cache/
+
+# Models weights / HF cache (code under models/ is tracked)
+models/**/*.pt
+models/**/*.safetensors
+
+# Media dumps
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+!docs/**/*.png
+
+# Archives / junk
+*.rar
+*.tar.gz
+*.zip
+=10.0.0
+=7.4.2
+
+# Jupyter
+.ipynb_checkpoints/

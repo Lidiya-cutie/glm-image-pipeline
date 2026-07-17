@@ -1,0 +1,90 @@
+{
+  "scenarios_background": [
+    {
+      "name": "courthouse",
+      "prompt": "professional legal advertisement background, grand courthouse interior marble columns, golden scales of justice, deep navy blue burgundy, soft ambient lighting, elegant empty space, 8k quality, no people, no person"
+    },
+    {
+      "name": "office_empty",
+      "prompt": "modern law firm office interior background, sleek glass steel, leather chairs, law books shelves, city skyline window, navy gold accents, professional empty office, no people"
+    },
+    {
+      "name": "abstract_legal",
+      "prompt": "abstract professional legal background, geometric dark blue gold patterns, subtle scales of justice, elegant gradient, minimalist corporate design, empty clean, no people"
+    },
+    {
+      "name": "library",
+      "prompt": "elegant law library background, antique wooden bookshelves, leather legal volumes, brass lamp, warm golden lighting, mahogany burgundy, classic professional, no people"
+    },
+    {
+      "name": "justice_symbols",
+      "prompt": "professional legal background, prominent golden scales of justice, marble texture, deep blue, laurel wreath elements, classical columns, authoritative, no people"
+    }
+  ],
+  "scenarios_with_person": [
+    {
+      "name": "lawyer_portrait_right",
+      "prompt": "professional lawyer portrait photo, confident businessman in dark suit, standing on right side of frame, modern office background, soft lighting, corporate style, space for text on left, high quality portrait",
+      "person_side": "right"
+    },
+    {
+      "name": "lawyer_portrait_left",
+      "prompt": "professional female lawyer portrait, confident businesswoman in elegant suit, standing on left side of frame, law office with books background, professional lighting, space for text on right, corporate photo",
+      "person_side": "left"
+    },
+    {
+      "name": "lawyer_desk",
+      "prompt": "professional lawyer sitting at desk, businessman in suit, office interior, law books behind, looking at camera, confident pose, bottom half of frame, space for text at top, corporate portrait",
+      "person_side": "bottom"
+    }
+  ],
+  "layouts": [
+    {
+      "name": "classic_left",
+      "headline": {"x": 40, "y": 80, "max_w": 500, "align": "left"},
+      "description": {"x": 40, "y": 400, "max_w": 450, "align": "left"},
+      "phone": {"x": 40, "y": 700, "align": "left"},
+      "disclaimer": {"x": 40, "y": 950, "max_w": 600, "align": "left"},
+      "card_zone": {"x": 25, "y": 60, "w": 530, "h": 750}
+    },
+    {
+      "name": "classic_right",
+      "headline": {"x": 524, "y": 80, "max_w": 460, "align": "left"},
+      "description": {"x": 524, "y": 400, "max_w": 450, "align": "left"},
+      "phone": {"x": 524, "y": 700, "align": "left"},
+      "disclaimer": {"x": 524, "y": 950, "max_w": 460, "align": "left"},
+      "card_zone": {"x": 504, "y": 60, "w": 500, "h": 750}
+    },
+    {
+      "name": "top_bottom",
+      "headline": {"x": 512, "y": 60, "max_w": 900, "align": "center"},
+      "description": {"x": 512, "y": 750, "max_w": 800, "align": "center"},
+      "phone": {"x": 512, "y": 870, "align": "center"},
+      "disclaimer": {"x": 512, "y": 970, "max_w": 700, "align": "center"},
+      "card_zone": null
+    },
+    {
+      "name": "center_stack",
+      "headline": {"x": 512, "y": 150, "max_w": 800, "align": "center"},
+      "description": {"x": 512, "y": 450, "max_w": 700, "align": "center"},
+      "phone": {"x": 512, "y": 650, "align": "center"},
+      "disclaimer": {"x": 512, "y": 920, "max_w": 600, "align": "center"},
+      "card_zone": {"x": 100, "y": 120, "w": 824, "h": 600}
+    }
+  ],
+  "text_styles": [
+    {"name": "gold", "headline_color": [255, 215, 100], "text_color": [255, 255, 255], "accent_color": [212, 175, 55]},
+    {"name": "white", "headline_color": [255, 255, 255], "text_color": [240, 240, 240], "accent_color": [255, 255, 255]},
+    {"name": "cream", "headline_color": [255, 248, 220], "text_color": [250, 250, 245], "accent_color": [230, 220, 180]},
+    {"name": "silver", "headline_color": [220, 220, 230], "text_color": [240, 240, 245], "accent_color": [180, 180, 195]},
+    {"name": "bronze", "headline_color": [205, 150, 80], "text_color": [255, 255, 255], "accent_color": [180, 130, 70]}
+  ],
+  "negative_prompt": "text, words, letters, watermark, logo, cartoon, anime, 3d render, cluttered, bright neon colors, low quality, blurry, deformed",
+  "negative_prompt_person": "deformed, ugly, bad anatomy, extra limbs, blurry, low quality, cartoon, anime, watermark, text",
+  "generation": {
+    "width": 1024,
+    "height": 1024,
+    "num_inference_steps": 50,
+    "guidance_scale": 7.5
+  }
+}

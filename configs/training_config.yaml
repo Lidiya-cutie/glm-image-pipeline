@@ -1,0 +1,312 @@
+# =============================================================================
+# Training Configuration
+# =============================================================================
+
+# =============================================================================
+# Stage 1: VQ Encoder Pre-training
+# =============================================================================
+vq_pretraining:
+  enabled: true
+  
+  data:
+    datasets:
+      - name: "laion-aesthetic"
+        path: "/data/laion-aesthetic-v2"
+        weight: 0.4
+      - name: "coyo-700m"
+        path: "/data/coyo-700m"
+        weight: 0.3
+      - name: "text-rich-images"
+        path: "/data/text-images"  # Плакаты, инфографика
+        weight: 0.3
+        
+    preprocessing:
+      resize: 512
+      center_crop: true
+      normalize: true
+      augmentations:
+        - random_horizontal_flip
+        - color_jitter
+        
+  training:
+    epochs: 100
+    batch_size: 128
+    gradient_accumulation: 2
+    
+    optimizer:
+      name: "adamw"
+      lr: 1e-4
+      weight_decay: 0.01
+      
+    scheduler:
+      name: "cosine"
+      warmup_ratio: 0.05
+      
+    distributed:
+      strategy: "ddp"
+      num_gpus: 8
+      
+# =============================================================================
+# Stage 2: AR Model Training (Supervised)
+# =============================================================================
+ar_supervised:
+  enabled: true
+  
+  # Инициализация
+  initialization:
+    base_model: "THUDM/glm-4-9b-chat"
+    freeze_layers: []  # Можно заморозить первые N слоёв
+    
+  data:
+    datasets:
+      - name: "image-caption-pairs"
+        path: "/data/image-captions"
+        format: "parquet"
+        columns:
+          image: "image"
+          caption: "text"
+          ocr_text: "ocr"  # Текст на изображении
+          
+    preprocessing:
+      max_text_length: 2048
+      max_vq_tokens: 4096
+      
+      # Формат промпта
+      prompt_template: |
+        Generate an image based on the following description:
+        {caption}
+        
+        Text to render: "{ocr_text}"
+        
+  training:
+    epochs: 50
+    batch_size: 8  # Per GPU
+    gradient_accumulation: 16
+    max_steps: 500000
+    
+    # Loss
+    loss:
+      type: "cross_entropy"
+      # Повышенный вес для начальных VQ токенов (layout)
+      layout_token_weight: 2.0
+      layout_token_count: 256  # Первые 256 токенов
+      label_smoothing: 0.1
+      
+    optimizer:
+      name: "adamw"
+      lr: 5e-5
+      betas: [0.9, 0.95]
+      weight_decay: 0.1
+      
+    scheduler:
+      name: "cosine"
+      warmup_steps: 2000
+      min_lr_ratio: 0.1
+      
+    # Gradient clipping
+    max_grad_norm: 1.0
+    
+    # Mixed precision
+    mixed_precision: "bf16"
+    
+    # DeepSpeed
+    deepspeed:
+      enabled: true
+      config: "configs/deepspeed_zero3.json"
+      
+# =============================================================================
+# Stage 3: DiT Decoder Training (Supervised)
+# =============================================================================
+dit_supervised:
+  enabled: true
+  
+  data:
+    # Используем те же данные + VQ токены
+    datasets:
+      - name: "image-vq-pairs"
+        path: "/data/image-vq-pairs"
+        
+    preprocessing:
+      resolution: 1024
+      use_buckets: true
+      bucket_resolutions:
+        - [512, 512]
+        - [768, 512]
+        - [1024, 1024]
+        - [1024, 768]
+        
+  training:
+    epochs: 100
+    batch_size: 4
+    gradient_accumulation: 8
+    
+    # Diffusion training
+    diffusion:
+      noise_schedule: "linear"  # linear, cosine, sigmoid
+      prediction_type: "velocity"  # epsilon, velocity, sample
+      snr_gamma: 5.0  # Min-SNR weighting
+      
+    optimizer:
+      name: "adamw"
+      lr: 1e-4
+      betas: [0.9, 0.999]
+      weight_decay: 0.01
+      
+    # EMA
+    ema:
+      enabled: true
+      decay: 0.9999
+      update_after_step: 100
+      
+# =============================================================================
+# Stage 4: RL Fine-tuning (Decoupled GRPO)
+# =============================================================================
+rl_finetuning:
+  enabled: true
+  
+  # Общие настройки
+  general:
+    num_iterations: 10000
+    eval_every: 500
+    save_every: 1000
+    
+  # Данные для RL
+  data:
+    prompts_path: "/data/rl-prompts"
+    num_prompts_per_batch: 32
+    
+  # ==========================================================================
+  # AR Model GRPO
+  # ==========================================================================
+  ar_grpo:
+    enabled: true
+    
+    # Reward модели для AR
+    rewards:
+      # Семантическое соответствие
+      - name: "clip_score"
+        weight: 0.4
+        model: "openai/clip-vit-large-patch14"
+        
+      # Layout качество
+      - name: "layout_score"
+        weight: 0.3
+        evaluator: "custom"  # Обученный классификатор layout
+        
+      # Alignment с текстом
+      - name: "text_alignment"
+        weight: 0.3
+        model: "laion/CLIP-ViT-bigG-14-laion2B-39B-b160k"
+        
+    # GRPO параметры
+    grpo:
+      num_samples: 4  # Генераций на prompt для группового сравнения
+      beta: 0.1  # KL penalty
+      clip_ratio: 0.2
+      
+    # Optimizer
+    optimizer:
+      name: "adamw"
+      lr: 1e-6
+      
+    # Какие слои обучать
+    trainable_layers: "all"  # all, last_n, lora
+    lora:
+      enabled: false
+      r: 64
+      alpha: 128
+      
+  # ==========================================================================
+  # DiT Model Flow-GRPO
+  # ==========================================================================
+  dit_flow_grpo:
+    enabled: true
+    
+    # Reward модели для DiT
+    rewards:
+      # Точность текста (через Glyph Encoder)
+      - name: "text_accuracy"
+        weight: 0.5
+        metrics:
+          - word_accuracy
+          - ned  # Normalized Edit Distance
+          - char_accuracy
+          
+      # Эстетика
+      - name: "aesthetic"
+        weight: 0.3
+        model: "laion/aesthetic-predictor-v2"
+        
+      # Детализация
+      - name: "detail_quality"
+        weight: 0.2
+        evaluator: "lpips"  # Perceptual quality
+        
+    # Flow-GRPO специфичные параметры
+    flow_grpo:
+      # Адаптация GRPO для flow matching
+      num_samples: 4
+      beta: 0.05  # Меньше KL penalty для диффузии
+      
+      # Gradient через diffusion
+      gradient_steps: 50  # Шаги для backprop через diffusion
+      guidance_scale: 7.5
+      
+    optimizer:
+      name: "adamw"
+      lr: 5e-7
+      
+    # Freeze semantic VQ conditioning
+    freeze_vq_embeddings: true
+    
+# =============================================================================
+# Metrics & Evaluation
+# =============================================================================
+evaluation:
+  benchmarks:
+    # Text rendering quality
+    - name: "CVTG-2K"
+      path: "/data/benchmarks/cvtg-2k"
+      metrics: ["word_accuracy", "ned"]
+      
+    - name: "LongText-Bench"
+      path: "/data/benchmarks/longtext"
+      metrics: ["word_accuracy", "layout_score"]
+      
+    # General quality
+    - name: "DPG-Bench"
+      path: "/data/benchmarks/dpg"
+      metrics: ["dpg_score"]
+      
+    - name: "OneIG-Bench"
+      path: "/data/benchmarks/oneig"
+      metrics: ["oneig_score"]
+      
+    # Standard metrics
+    - name: "COCO-30k"
+      path: "/data/benchmarks/coco"
+      metrics: ["fid", "clip_score"]
+      
+  # Генерация примеров
+  sample_generation:
+    num_samples: 100
+    prompts_path: "/data/eval-prompts.json"
+    save_dir: "outputs/samples"
+    
+# =============================================================================
+# Logging & Checkpointing
+# =============================================================================
+logging:
+  wandb:
+    enabled: true
+    project: "glm-image"
+    entity: null
+    
+  tensorboard:
+    enabled: true
+    log_dir: "logs/tensorboard"
+    
+checkpointing:
+  save_dir: "checkpoints"
+  save_total_limit: 5
+  save_on_each_node: false

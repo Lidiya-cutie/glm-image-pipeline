@@ -1,0 +1,82 @@
+[
+    {
+        "prompt": "A movie poster for \"The Matrix\" with green neon text on black background",
+        "target_text": "The Matrix"
+    },
+    {
+        "prompt": "Professional business banner with \"SALE 50% OFF\" in bold red letters",
+        "target_text": "SALE 50% OFF"
+    },
+    {
+        "prompt": "Minimalist logo design with text \"ACME Corp\" in modern sans-serif font",
+        "target_text": "ACME Corp"
+    },
+    {
+        "prompt": "Neon sign style image with \"OPEN 24/7\" glowing text",
+        "target_text": "OPEN 24/7"
+    },
+    {
+        "prompt": "Vintage poster with \"Welcome to California\" retro typography",
+        "target_text": "Welcome to California"
+    },
+    {
+        "prompt": "Sports banner with \"GAME DAY\" in athletic bold font",
+        "target_text": "GAME DAY"
+    },
+    {
+        "prompt": "Coffee shop menu board with \"Fresh Coffee\" handwritten style",
+        "target_text": "Fresh Coffee"
+    },
+    {
+        "prompt": "Tech startup logo with \"InnovateTech\" futuristic text",
+        "target_text": "InnovateTech"
+    },
+    {
+        "prompt": "Warning sign with \"CAUTION: WET FLOOR\" safety text",
+        "target_text": "CAUTION: WET FLOOR"
+    },
+    {
+        "prompt": "Restaurant menu with \"Today's Special\" elegant script",
+        "target_text": "Today's Special"
+    },
+    {
+        "prompt": "Event poster with \"Summer Music Festival 2024\" colorful text",
+        "target_text": "Summer Music Festival 2024"
+    },
+    {
+        "prompt": "Book cover with title \"The Art of Design\" serif typography",
+        "target_text": "The Art of Design"
+    },
+    {
+        "prompt": "Street sign with \"Main Street\" standard road sign font",
+        "target_text": "Main Street"
+    },
+    {
+        "prompt": "Product packaging with \"Premium Quality\" gold embossed text",
+        "target_text": "Premium Quality"
+    },
+    {
+        "prompt": "Social media graphic with \"Follow Us\" call to action text",
+        "target_text": "Follow Us"
+    },
+    {
+        "prompt": "Chinese restaurant sign with \"北京烤鸭\" (Beijing Roast Duck)",
+        "target_text": "北京烤鸭"
+    },
+    {
+        "prompt": "Bilingual sign with \"Exit 出口\" in English and Chinese",
+        "target_text": "Exit 出口"
+    },
+    {
+        "prompt": "Certificate with \"Certificate of Achievement\" formal text",
+        "target_text": "Certificate of Achievement"
+    },
+    {
+        "prompt": "Store window with \"GRAND OPENING\" celebratory banner",
+        "target_text": "GRAND OPENING"
+    },
+    {
+        "prompt": "Inspirational poster with \"Dream Big\" motivational quote",
+        "target_text": "Dream Big"
+    }
+]

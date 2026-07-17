@@ -1,0 +1,15 @@
+# Минимум для generate_circular_frame_banners.py + SimpleImagePipeline (SDXL).
+# torch ставьте отдельно с подходящего индекса (CUDA/CPU), см. https://pytorch.org
+torch>=2.1.0
+diffusers>=0.27.0
+transformers>=4.38.0
+accelerate>=0.27.0
+safetensors>=0.4.0
+pillow>=10.0.0
+numpy>=1.26.0
+
+# Опционально: --quantize 4bit|8bit
+# bitsandbytes>=0.41.0
+
+# Опционально: xformers в simple_pipeline при наличии
+# xformers>=0.0.24

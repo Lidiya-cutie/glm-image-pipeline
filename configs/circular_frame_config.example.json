@@ -1,0 +1,547 @@
+{
+  "prompt_template_suffix": " Framing: central circular composition with crisp black ring border; paper-white uniform background outside the ring. Cel-shaded or vector-comic look with clear ink outlines; optional halftone shading; no text, no watermark, no logo.",
+  "scenarios": [
+    {
+      "name": "round_action_snow_01",
+      "prompt": "detailed digital illustration, semi-vector comic style, clear outlines, cold mountain snow ridge, dynamic diagonal motion bottom-left to top-right, snowmobile with futuristic design and pilot in helmet, massive spiked round monster upper right shooting fireball, orange warm accents against blue ice, high detail, 8k",
+      "has_person": true,
+      "person_position": "left_center",
+      "framing": {
+        "content_radius_ratio": 0.4,
+        "ring_width_px": 12,
+        "breakout_sectors": [
+          [
+            200,
+            255
+          ],
+          [
+            320,
+            360
+          ],
+          [
+            0,
+            40
+          ]
+        ],
+        "breakout_apply_beyond_ring": true
+      }
+    },
+    {
+      "name": "round_portrait_object_01",
+      "prompt": "isolated hero object centered, soft studio lighting, circular composition intent, no text, product illustration, saturated colors, clean render",
+      "has_person": false,
+      "framing": {
+        "content_radius_ratio": 0.44,
+        "ring_width_px": 10,
+        "breakout_sectors": []
+      }
+    },
+    {
+      "name": "cyber_cycle_neon",
+      "prompt": "Detailed digital comic book illustration in a central round frame with black edging. A futuristic neon-lit motorcycle leaning into a sharp turn. Neon blue and magenta light trails. Kinetic speed lines. Around the frame: solid white background. Pop-out effect: the front wheel and bright pink light streaks cross the border at 4 and 8 o'clock onto the white space. High contrast, cel-shaded, vibrant gradients, 8k quality.",
+      "has_person": false,
+      "framing": {
+        "content_radius_ratio": 0.41,
+        "ring_width_px": 11,
+        "breakout_sectors": [
+          [
+            105,
+            138
+          ],
+          [
+            225,
+            258
+          ]
+        ],
+        "breakout_apply_beyond_ring": true
+      }
+    },
+    {
+      "name": "starship_nebula_exit",
+      "prompt": "Comic style illustration inside a circular black border. A sleek starship jumping into hyperspace through a glowing orange nebula. Deep space blues and purples. Kinetic energy sparks. External area: clean white background. Breakthrough effect: the ship's engine exhaust and crystalline nebula fragments burst through the top-right border at 1 and 2 o'clock. Sharp ink outlines, halftone patterns, 8k resolution.",
+      "has_person": false,
+      "framing": {
+        "content_radius_ratio": 0.41,
+        "ring_width_px": 11,
+        "breakout_sectors": [
+          [
+            22,
+            68
+          ]
+        ],
+        "breakout_apply_beyond_ring": true
+      }
+    },
+    {
+      "name": "dragon_temple_smoke",
+      "prompt": "Detailed vector-comic illustration in a round frame. An ancient Japanese temple surrounded by swirling mystical spirit clouds. Cool teal and warm gold color palette. Background outside circle: pure white. Exit points: thick stylized clouds of smoke and temple roof tiles overlap the frame at 5, 7, and 11 o'clock. Dynamic composition, clean linework, soft shadow gradients, 8k quality.",
+      "has_person": false,
+      "framing": {
+        "content_radius_ratio": 0.4,
+        "ring_width_px": 12,
+        "breakout_sectors": [
+          [
+            135,
+            168
+          ],
+          [
+            195,
+            228
+          ],
+          [
+            315,
+            348
+          ]
+        ],
+        "breakout_apply_beyond_ring": true
+      }
+    },
+    {
+      "name": "space_marine_snowmobile",
+      "prompt": "High-quality comic book illustration in a central circular frame with black border. A space marine in heavy red and green armor riding a futuristic snowmobile up a steep snowy ridge. Cold blue mountain shadows. A jagged one-eyed red monster in the upper right firing a glowing fireball. External area: blank white background. Pop-out: snow splashes and caterpillar tracks break the border at 7-8 o'clock. Monster spikes and sparks exit the border at 1-2 o'clock. Dynamic action, cel-shaded, 8k quality.",
+      "has_person": true,
+      "person_position": "left_center",
+      "framing": {
+        "content_radius_ratio": 0.4,
+        "ring_width_px": 12,
+        "breakout_sectors": [
+          [
+            200,
+            255
+          ],
+          [
+            18,
+            72
+          ]
+        ],
+        "breakout_apply_beyond_ring": true
+      }
+    },
+    {
+      "name": "samurai_duel_petals",
+      "prompt": "Detailed digital comic art in a round black frame. A futuristic cyber-samurai in mid-air strike, katana glowing with white energy. Background of falling pink cherry blossoms. Outer area: minimalist white. Breakthrough: the samurai's cape and a flurry of pink petals overflow the circular frame at 10 and 4 o'clock onto the white background. Bold outlines, halftone dots for shading, high impact composition, 8k.",
+      "has_person": true,
+      "person_position": "center",
+      "framing": {
+        "content_radius_ratio": 0.41,
+        "ring_width_px": 11,
+        "breakout_sectors": [
+          [
+            285,
+            318
+          ],
+          [
+            105,
+            138
+          ]
+        ],
+        "breakout_apply_beyond_ring": true
+      }
+    },
+    {
+      "name": "underwater_diver_harpoon",
+      "prompt": "Comic book style illustration in a circular frame. A deep-sea diver in a brass steampunk suit fighting a giant mechanical kraken. Dark emerald water and glowing bioluminescent fish. Exterior: uniform white background. Exit effect: the diver's harpoon tip and giant metal tentacles smash through the frame at 3, 6, and 9 o'clock. Bubbles scattering outside the border. Vibrant colors, detailed line art, 8k resolution.",
+      "has_person": true,
+      "person_position": "center",
+      "framing": {
+        "content_radius_ratio": 0.4,
+        "ring_width_px": 12,
+        "breakout_sectors": [
+          [
+            78,
+            108
+          ],
+          [
+            168,
+            198
+          ],
+          [
+            258,
+            288
+          ]
+        ],
+        "breakout_apply_beyond_ring": true
+      }
+    },
+    {
+      "name": "cyberpunk_hacker_glitch",
+      "prompt": "Digital comic illustration in a round border. A character in a hooded techwear jacket sitting among floating holographic screens. Glitch art aesthetics with electric yellow and violet tones. External space: flat white. Out-of-bounds: holographic code fragments and digital sparks protrude past the border at 12, 2, and 5 o'clock. Perspective view, sharp focus, cel-shaded textures, 8k.",
+      "has_person": true,
+      "person_position": "center",
+      "framing": {
+        "content_radius_ratio": 0.41,
+        "ring_width_px": 11,
+        "breakout_sectors": [
+          [
+            330,
+            360
+          ],
+          [
+            0,
+            22
+          ],
+          [
+            48,
+            78
+          ],
+          [
+            138,
+            168
+          ]
+        ],
+        "breakout_apply_beyond_ring": true
+      }
+    },
+    {
+      "name": "desert_raider_jump",
+      "prompt": "Dynamic comic illustration in a circular black frame. A desert raider on a hovering sand-skiff jumping over a canyon. Sand dunes in hot orange and deep brown. Exterior background: paper-white. Pop-out: a massive dust cloud and the front of the skiff cross the frame boundary at 8 o'clock. Small pebbles flying out at 4 o'clock. Speed lines, dramatic lighting, high quality digital art, 8k.",
+      "has_person": true,
+      "person_position": "right_center",
+      "framing": {
+        "content_radius_ratio": 0.41,
+        "ring_width_px": 11,
+        "breakout_sectors": [
+          [
+            225,
+            258
+          ],
+          [
+            105,
+            138
+          ]
+        ],
+        "breakout_apply_beyond_ring": true
+      }
+    },
+    {
+      "name": "cyber_cycle_neon_fullscene",
+      "prompt": "Detailed digital comic book illustration of a futuristic neon-lit motorcycle leaning into a sharp turn. Neon blue and magenta light trails, kinetic speed lines, high contrast, cel-shaded rendering, vibrant gradients, sharp ink outlines, 8k quality.",
+      "has_person": false,
+      "framing": {
+        "content_radius_ratio": 0.44,
+        "ring_width_px": 11,
+        "breakout_sectors": []
+      }
+    },
+    {
+      "name": "starship_nebula_exit_fullscene",
+      "prompt": "Comic style space illustration of a sleek starship jumping into hyperspace through a glowing orange nebula, deep space blues and purples, kinetic energy sparks, sharp ink outlines, halftone patterns, cinematic composition, 8k resolution.",
+      "has_person": false,
+      "framing": {
+        "content_radius_ratio": 0.44,
+        "ring_width_px": 11,
+        "breakout_sectors": []
+      }
+    },
+    {
+      "name": "dragon_temple_smoke_fullscene",
+      "prompt": "Detailed vector-comic illustration of an ancient Japanese temple surrounded by swirling mystical spirit clouds, cool teal and warm gold palette, dynamic composition, clean linework, soft shadow gradients, rich atmospheric detail, 8k quality.",
+      "has_person": false,
+      "framing": {
+        "content_radius_ratio": 0.44,
+        "ring_width_px": 11,
+        "breakout_sectors": []
+      }
+    },
+    {
+      "name": "space_marine_snowmobile_fullscene",
+      "prompt": "High-quality comic book action illustration: a space marine in heavy red and green armor riding a futuristic snowmobile up a steep snowy ridge, cold blue mountain shadows, jagged one-eyed red monster in the upper right firing a glowing fireball, dynamic action, cel-shaded, 8k quality.",
+      "has_person": true,
+      "person_position": "left_center",
+      "framing": {
+        "content_radius_ratio": 0.44,
+        "ring_width_px": 11,
+        "breakout_sectors": []
+      }
+    },
+    {
+      "name": "samurai_duel_petals_fullscene",
+      "prompt": "Detailed digital comic art of a futuristic cyber-samurai in a mid-air strike, katana glowing with white energy, background of falling pink cherry blossoms, bold outlines, halftone-dot shading, high-impact composition, 8k quality.",
+      "has_person": true,
+      "person_position": "center",
+      "framing": {
+        "content_radius_ratio": 0.44,
+        "ring_width_px": 11,
+        "breakout_sectors": []
+      }
+    },
+    {
+      "name": "underwater_diver_harpoon_fullscene",
+      "prompt": "Comic book style underwater battle illustration: a deep-sea diver in a brass steampunk suit fighting a giant mechanical kraken, dark emerald water, glowing bioluminescent fish, bubbles, vibrant colors, detailed line art, cinematic action, 8k resolution.",
+      "has_person": true,
+      "person_position": "center",
+      "framing": {
+        "content_radius_ratio": 0.44,
+        "ring_width_px": 11,
+        "breakout_sectors": []
+      }
+    },
+    {
+      "name": "cyberpunk_hacker_glitch_fullscene",
+      "prompt": "Digital comic illustration of a hooded character in techwear among floating holographic screens, glitch-art aesthetics with electric yellow and violet tones, perspective view, sharp focus, cel-shaded textures, high detail, 8k quality.",
+      "has_person": true,
+      "person_position": "center",
+      "framing": {
+        "content_radius_ratio": 0.44,
+        "ring_width_px": 11,
+        "breakout_sectors": []
+      }
+    },
+    {
+      "name": "desert_raider_jump_fullscene",
+      "prompt": "Dynamic comic illustration of a desert raider on a hovering sand-skiff jumping over a canyon, hot orange dunes and deep brown shadows, dust clouds, flying pebbles, speed lines, dramatic lighting, high-quality digital art, 8k.",
+      "has_person": true,
+      "person_position": "right_center",
+      "framing": {
+        "content_radius_ratio": 0.44,
+        "ring_width_px": 11,
+        "breakout_sectors": []
+      }
+    },
+    {
+      "name": "round_action_snow_01_circle_cover",
+      "prompt": "detailed digital illustration, semi-vector comic style, clear outlines, cold mountain snow ridge, dynamic diagonal motion bottom-left to top-right, snowmobile with futuristic design and pilot in helmet, massive spiked round monster upper right shooting fireball, orange warm accents against blue ice, high detail, 8k",
+      "has_person": true,
+      "person_position": "left_center",
+      "framing": {
+        "content_radius_ratio": 0.4,
+        "ring_width_px": 12,
+        "breakout_sectors": [],
+        "breakout_apply_beyond_ring": false,
+        "fill_mode": "cover"
+      },
+      "prompt_suffix": ""
+    },
+    {
+      "name": "round_portrait_object_01_circle_cover",
+      "prompt": "isolated hero object centered, soft studio lighting, circular composition intent, no text, product illustration, saturated colors, clean render",
+      "has_person": false,
+      "framing": {
+        "content_radius_ratio": 0.44,
+        "ring_width_px": 10,
+        "breakout_sectors": [],
+        "fill_mode": "cover",
+        "breakout_apply_beyond_ring": false
+      },
+      "prompt_suffix": ""
+    },
+    {
+      "name": "cyber_cycle_neon_circle_cover",
+      "prompt": "Detailed digital comic book illustration in a central round frame with black edging. A futuristic neon-lit motorcycle leaning into a sharp turn. Neon blue and magenta light trails. Kinetic speed lines. Around the frame: solid white background. Pop-out effect: the front wheel and bright pink light streaks cross the border at 4 and 8 o'clock onto the white space. High contrast, cel-shaded, vibrant gradients, 8k quality.",
+      "has_person": false,
+      "framing": {
+        "content_radius_ratio": 0.41,
+        "ring_width_px": 11,
+        "breakout_sectors": [],
+        "breakout_apply_beyond_ring": false,
+        "fill_mode": "cover"
+      },
+      "prompt_suffix": ""
+    },
+    {
+      "name": "starship_nebula_exit_circle_cover",
+      "prompt": "Comic style illustration inside a circular black border. A sleek starship jumping into hyperspace through a glowing orange nebula. Deep space blues and purples. Kinetic energy sparks. External area: clean white background. Breakthrough effect: the ship's engine exhaust and crystalline nebula fragments burst through the top-right border at 1 and 2 o'clock. Sharp ink outlines, halftone patterns, 8k resolution.",
+      "has_person": false,
+      "framing": {
+        "content_radius_ratio": 0.41,
+        "ring_width_px": 11,
+        "breakout_sectors": [],
+        "breakout_apply_beyond_ring": false,
+        "fill_mode": "cover"
+      },
+      "prompt_suffix": ""
+    },
+    {
+      "name": "dragon_temple_smoke_circle_cover",
+      "prompt": "Detailed vector-comic illustration in a round frame. An ancient Japanese temple surrounded by swirling mystical spirit clouds. Cool teal and warm gold color palette. Background outside circle: pure white. Exit points: thick stylized clouds of smoke and temple roof tiles overlap the frame at 5, 7, and 11 o'clock. Dynamic composition, clean linework, soft shadow gradients, 8k quality.",
+      "has_person": false,
+      "framing": {
+        "content_radius_ratio": 0.4,
+        "ring_width_px": 12,
+        "breakout_sectors": [],
+        "breakout_apply_beyond_ring": false,
+        "fill_mode": "cover"
+      },
+      "prompt_suffix": ""
+    },
+    {
+      "name": "space_marine_snowmobile_circle_cover",
+      "prompt": "High-quality comic book illustration in a central circular frame with black border. A space marine in heavy red and green armor riding a futuristic snowmobile up a steep snowy ridge. Cold blue mountain shadows. A jagged one-eyed red monster in the upper right firing a glowing fireball. External area: blank white background. Pop-out: snow splashes and caterpillar tracks break the border at 7-8 o'clock. Monster spikes and sparks exit the border at 1-2 o'clock. Dynamic action, cel-shaded, 8k quality.",
+      "has_person": true,
+      "person_position": "left_center",
+      "framing": {
+        "content_radius_ratio": 0.4,
+        "ring_width_px": 12,
+        "breakout_sectors": [],
+        "breakout_apply_beyond_ring": false,
+        "fill_mode": "cover"
+      },
+      "prompt_suffix": ""
+    },
+    {
+      "name": "samurai_duel_petals_circle_cover",
+      "prompt": "Detailed digital comic art in a round black frame. A futuristic cyber-samurai in mid-air strike, katana glowing with white energy. Background of falling pink cherry blossoms. Outer area: minimalist white. Breakthrough: the samurai's cape and a flurry of pink petals overflow the circular frame at 10 and 4 o'clock onto the white background. Bold outlines, halftone dots for shading, high impact composition, 8k.",
+      "has_person": true,
+      "person_position": "center",
+      "framing": {
+        "content_radius_ratio": 0.41,
+        "ring_width_px": 11,
+        "breakout_sectors": [],
+        "breakout_apply_beyond_ring": false,
+        "fill_mode": "cover"
+      },
+      "prompt_suffix": ""
+    },
+    {
+      "name": "underwater_diver_harpoon_circle_cover",
+      "prompt": "Comic book style illustration in a circular frame. A deep-sea diver in a brass steampunk suit fighting a giant mechanical kraken. Dark emerald water and glowing bioluminescent fish. Exterior: uniform white background. Exit effect: the diver's harpoon tip and giant metal tentacles smash through the frame at 3, 6, and 9 o'clock. Bubbles scattering outside the border. Vibrant colors, detailed line art, 8k resolution.",
+      "has_person": true,
+      "person_position": "center",
+      "framing": {
+        "content_radius_ratio": 0.4,
+        "ring_width_px": 12,
+        "breakout_sectors": [],
+        "breakout_apply_beyond_ring": false,
+        "fill_mode": "cover"
+      },
+      "prompt_suffix": ""
+    },
+    {
+      "name": "cyberpunk_hacker_glitch_circle_cover",
+      "prompt": "Digital comic illustration in a round border. A character in a hooded techwear jacket sitting among floating holographic screens. Glitch art aesthetics with electric yellow and violet tones. External space: flat white. Out-of-bounds: holographic code fragments and digital sparks protrude past the border at 12, 2, and 5 o'clock. Perspective view, sharp focus, cel-shaded textures, 8k.",
+      "has_person": true,
+      "person_position": "center",
+      "framing": {
+        "content_radius_ratio": 0.41,
+        "ring_width_px": 11,
+        "breakout_sectors": [],
+        "breakout_apply_beyond_ring": false,
+        "fill_mode": "cover"
+      },
+      "prompt_suffix": ""
+    },
+    {
+      "name": "desert_raider_jump_circle_cover",
+      "prompt": "Dynamic comic illustration in a circular black frame. A desert raider on a hovering sand-skiff jumping over a canyon. Sand dunes in hot orange and deep brown. Exterior background: paper-white. Pop-out: a massive dust cloud and the front of the skiff cross the frame boundary at 8 o'clock. Small pebbles flying out at 4 o'clock. Speed lines, dramatic lighting, high quality digital art, 8k.",
+      "has_person": true,
+      "person_position": "right_center",
+      "framing": {
+        "content_radius_ratio": 0.41,
+        "ring_width_px": 11,
+        "breakout_sectors": [],
+        "breakout_apply_beyond_ring": false,
+        "fill_mode": "cover"
+      },
+      "prompt_suffix": ""
+    },
+    {
+      "name": "cyber_cycle_neon_fullscene_circle_cover",
+      "prompt": "Detailed digital comic book illustration of a futuristic neon-lit motorcycle leaning into a sharp turn. Neon blue and magenta light trails, kinetic speed lines, high contrast, cel-shaded rendering, vibrant gradients, sharp ink outlines, 8k quality.",
+      "has_person": false,
+      "framing": {
+        "content_radius_ratio": 0.44,
+        "ring_width_px": 11,
+        "breakout_sectors": [],
+        "fill_mode": "cover",
+        "breakout_apply_beyond_ring": false
+      },
+      "prompt_suffix": ""
+    },
+    {
+      "name": "starship_nebula_exit_fullscene_circle_cover",
+      "prompt": "Comic style space illustration of a sleek starship jumping into hyperspace through a glowing orange nebula, deep space blues and purples, kinetic energy sparks, sharp ink outlines, halftone patterns, cinematic composition, 8k resolution.",
+      "has_person": false,
+      "framing": {
+        "content_radius_ratio": 0.44,
+        "ring_width_px": 11,
+        "breakout_sectors": [],
+        "fill_mode": "cover",
+        "breakout_apply_beyond_ring": false
+      },
+      "prompt_suffix": ""
+    },
+    {
+      "name": "dragon_temple_smoke_fullscene_circle_cover",
+      "prompt": "Detailed vector-comic illustration of an ancient Japanese temple surrounded by swirling mystical spirit clouds, cool teal and warm gold palette, dynamic composition, clean linework, soft shadow gradients, rich atmospheric detail, 8k quality.",
+      "has_person": false,
+      "framing": {
+        "content_radius_ratio": 0.44,
+        "ring_width_px": 11,
+        "breakout_sectors": [],
+        "fill_mode": "cover",
+        "breakout_apply_beyond_ring": false
+      },
+      "prompt_suffix": ""
+    },
+    {
+      "name": "space_marine_snowmobile_fullscene_circle_cover",
+      "prompt": "High-quality comic book action illustration: a space marine in heavy red and green armor riding a futuristic snowmobile up a steep snowy ridge, cold blue mountain shadows, jagged one-eyed red monster in the upper right firing a glowing fireball, dynamic action, cel-shaded, 8k quality.",
+      "has_person": true,
+      "person_position": "left_center",
+      "framing": {
+        "content_radius_ratio": 0.44,
+        "ring_width_px": 11,
+        "breakout_sectors": [],
+        "fill_mode": "cover",
+        "breakout_apply_beyond_ring": false
+      },
+      "prompt_suffix": ""
+    },
+    {
+      "name": "samurai_duel_petals_fullscene_circle_cover",
+      "prompt": "Detailed digital comic art of a futuristic cyber-samurai in a mid-air strike, katana glowing with white energy, background of falling pink cherry blossoms, bold outlines, halftone-dot shading, high-impact composition, 8k quality.",
+      "has_person": true,
+      "person_position": "center",
+      "framing": {
+        "content_radius_ratio": 0.44,
+        "ring_width_px": 11,
+        "breakout_sectors": [],
+        "fill_mode": "cover",
+        "breakout_apply_beyond_ring": false
+      },
+      "prompt_suffix": ""
+    },
+    {
+      "name": "underwater_diver_harpoon_fullscene_circle_cover",
+      "prompt": "Comic book style underwater battle illustration: a deep-sea diver in a brass steampunk suit fighting a giant mechanical kraken, dark emerald water, glowing bioluminescent fish, bubbles, vibrant colors, detailed line art, cinematic action, 8k resolution.",
+      "has_person": true,
+      "person_position": "center",
+      "framing": {
+        "content_radius_ratio": 0.44,
+        "ring_width_px": 11,
+        "breakout_sectors": [],
+        "fill_mode": "cover",
+        "breakout_apply_beyond_ring": false
+      },
+      "prompt_suffix": ""
+    },
+    {
+      "name": "cyberpunk_hacker_glitch_fullscene_circle_cover",
+      "prompt": "Digital comic illustration of a hooded character in techwear among floating holographic screens, glitch-art aesthetics with electric yellow and violet tones, perspective view, sharp focus, cel-shaded textures, high detail, 8k quality.",
+      "has_person": true,
+      "person_position": "center",
+      "framing": {
+        "content_radius_ratio": 0.44,
+        "ring_width_px": 11,
+        "breakout_sectors": [],
+        "fill_mode": "cover",
+        "breakout_apply_beyond_ring": false
+      },
+      "prompt_suffix": ""
+    },
+    {
+      "name": "desert_raider_jump_fullscene_circle_cover",
+      "prompt": "Dynamic comic illustration of a desert raider on a hovering sand-skiff jumping over a canyon, hot orange dunes and deep brown shadows, dust clouds, flying pebbles, speed lines, dramatic lighting, high-quality digital art, 8k.",
+      "has_person": true,
+      "person_position": "right_center",
+      "framing": {
+        "content_radius_ratio": 0.44,
+        "ring_width_px": 11,
+        "breakout_sectors": [],
+        "fill_mode": "cover",
+        "breakout_apply_beyond_ring": false
+      },
+      "prompt_suffix": ""
+    }
+  ]
+}

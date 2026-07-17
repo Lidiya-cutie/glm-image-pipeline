@@ -35,6 +35,23 @@ wandb/
 mlruns/
 .cache/
 
+# Runtime media (symlink via scripts/link_runtime_data.sh — do not commit)
+cigarette_images
+cigarette_images/
+fonts
+fonts/
+shrifts
+shrifts/
+baby_logo
+baby_logo/
+baby_logo_1
+baby_logo_1/
+alcohol_free_icons*
+logo_for_qr_extracted
+logo_for_qr_extracted/
+LLD_favicons_full_png
+LLD_favicons_full_png/
+
 # Models weights / HF cache (code under models/ is tracked)
 models/**/*.pt
 models/**/*.safetensors

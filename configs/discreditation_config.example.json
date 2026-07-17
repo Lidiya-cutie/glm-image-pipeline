@@ -1,0 +1,45 @@
+{
+  "name": "discreditation",
+  "description": "Структура как у tobacco_config: сценарии только с промптами; заголовки/описания/дисклеймеры и пресеты заведений — отдельно.",
+  "purpose": "advertising",
+  "prompt_detail_suffix": null,
+  "legal_requirements": {
+    "mandatory_disclaimers": [],
+    "target_classes": []
+  },
+  "venue_badges": [],
+  "venue_presets": [],
+  "headlines": [],
+  "descriptions": [],
+  "disclaimers": [],
+  "styles": [
+    {
+      "name": "dark",
+      "headline_color": [255, 255, 255],
+      "text_color": [240, 240, 240],
+      "accent_color": [180, 180, 180],
+      "shadow_color": [0, 0, 0],
+      "shadow_opacity": 200
+    }
+  ],
+  "disclaimer_bg_styles": [
+    {
+      "alpha": 160,
+      "color": [0, 0, 0]
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "placeholder_01",
+      "prompt": "",
+      "has_person": false,
+      "venue_preset_index": null
+    },
+    {
+      "name": "placeholder_02",
+      "prompt": "",
+      "has_person": false,
+      "venue_preset_index": null
+    }
+  ]
+}

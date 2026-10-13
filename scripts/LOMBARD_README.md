@@ -139,7 +139,7 @@ python scripts/generate_lombard_banners.py --without-people --format vertical --
 python scripts/generate_lombard_banners.py --all-scenarios --qr-chance 70
 
 # С логотипами после телефона
-python scripts/generate_lombard_banners.py --all-scenarios --add-phone-logos --favicons-dir /opt/logo_for_qr_extracted
+python scripts/generate_lombard_banners.py --all-scenarios --add-phone-logos --favicons-dir external/logo_for_qr_extracted
 
 # Dual composition (композиция из 2 фонов + текст + QR с разнообразными вариантами размещения)
 python scripts/lombard_dual_composition.py --input-dir path/to/backgrounds --output output/lombard_dual --format horizontal --count 20 --qr-chance 60

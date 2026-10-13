@@ -117,7 +117,7 @@ python scripts/generate_bankruptcy_banner_2.py --list-person-scenarios
 
 ### 4. `generate_bankruptcy_with_qr.py` — баннеры с QR-кодами
 
-**Зависимости:** `custom-qr-generator` (`/opt/custom-qr-generator`), `qrcode`, `Pillow`
+**Зависимости:** `custom-qr-generator` (`external/custom-qr-generator`), `qrcode`, `Pillow`
 
 **Установка зависимостей:**
 ```bash

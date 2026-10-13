@@ -27,7 +27,7 @@ from scripts.folk_medicine_overlay import (
     get_layout_for_scenario,
 )
 
-sys.path.insert(0, str(Path("/opt/custom-qr-generator")))
+sys.path.insert(0, str(Path("external/custom-qr-generator")))
 
 try:
     from qr_generator.core import QRGenerator
@@ -43,7 +43,7 @@ except ImportError as e:
     sys.exit(1)
 
 class LogoManager:
-    def __init__(self, archive_path="/opt/logo_for_qr.rar", extract_dir="/opt/logo_for_qr_extracted"):
+    def __init__(self, archive_path="external/logo_for_qr.rar", extract_dir="external/logo_for_qr_extracted"):
         self.archive_path = Path(archive_path)
         self.extract_dir = Path(extract_dir)
         self.logos = []

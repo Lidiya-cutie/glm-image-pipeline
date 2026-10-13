@@ -17,7 +17,7 @@
     pip install qrcode[pil]>=7.4.2 Pillow>=10.0.0
 
     Или из custom-qr-generator:
-    cd /opt/custom-qr-generator
+    cd external/custom-qr-generator
     pip install -r requirements.txt
 
 Примеры:
@@ -65,7 +65,7 @@ from scripts.bankruptcy_overlay import (
 )
 
 # Импорты для QR-кодов
-sys.path.insert(0, str(Path("/opt/custom-qr-generator")))
+sys.path.insert(0, str(Path("external/custom-qr-generator")))
 
 # Проверка базовой зависимости qrcode
 try:
@@ -77,7 +77,7 @@ except ImportError:
     print("\nУстановите зависимости:")
     print("  pip install qrcode[pil]>=7.4.2 Pillow>=10.0.0")
     print("\nИли установите все зависимости из custom-qr-generator:")
-    print("  cd /opt/custom-qr-generator")
+    print("  cd external/custom-qr-generator")
     print("  pip install -r requirements.txt")
     print("=" * 70)
     sys.exit(1)
@@ -93,11 +93,11 @@ except ImportError as e:
     print("=" * 70)
     print(f"\nДетали: {e}")
     print("\nПроверьте:")
-    print("  1. Путь /opt/custom-qr-generator существует")
+    print("  1. Путь external/custom-qr-generator существует")
     print("  2. Установлены зависимости: pip install qrcode[pil] Pillow")
     print("  3. Структура модулей корректна")
     print("\nДля установки зависимостей:")
-    print("  cd /opt/custom-qr-generator")
+    print("  cd external/custom-qr-generator")
     print("  pip install -r requirements.txt")
     print("=" * 70)
     sys.exit(1)
@@ -182,8 +182,8 @@ class BankruptcyQRPipeline:
     
     def __init__(
         self,
-        domains_csv: str = "/opt/traditional_healers_domains.csv",
-        favicons_dir: str = "/opt/LLD_favicons_full_png",
+        domains_csv: str = "external/traditional_healers_domains.csv",
+        favicons_dir: str = "external/LLD_favicons_full_png",
         device: str = "cuda",
         dtype: torch.dtype = torch.float16,
         quantize: Optional[str] = None,
@@ -593,10 +593,10 @@ def main():
     
     # Домены
     parser.add_argument("--domains-csv", type=str,
-                        default="/opt/traditional_healers_domains.csv",
+                        default="external/traditional_healers_domains.csv",
                         help="Путь к CSV с доменами")
     parser.add_argument("--favicons-dir", type=str,
-                        default="/opt/LLD_favicons_full_png",
+                        default="external/LLD_favicons_full_png",
                         help="Директория с фавиконами")
     
     # Генерация баннеров

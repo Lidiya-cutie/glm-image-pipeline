@@ -39,7 +39,7 @@ from scripts.text_overlay import (
 )
 
 # Путь к логотипам
-LOGO_FOR_QR_DIR = Path("/opt/logo_for_qr_extracted")
+LOGO_FOR_QR_DIR = Path("external/logo_for_qr_extracted")
 
 
 def _load_contact_logos(favicons_dir: Optional[str], logo_height: int, count: int) -> List[Image.Image]:

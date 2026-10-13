@@ -36,7 +36,7 @@ except ImportError as e:
 DOMAIN_PROCESSOR_AVAILABLE = False
 DomainProcessor = None
 try:
-    _qr_gen_path = Path("/opt/custom-qr-generator")
+    _qr_gen_path = Path("external/custom-qr-generator")
     if _qr_gen_path.exists():
         sys.path.insert(0, str(_qr_gen_path))
         from qr_generator.domain_processor import DomainProcessor as _DP
@@ -495,7 +495,7 @@ def apply_text_with_avoidance(
         background_zones: Список зон фонов
         num_backgrounds: Количество фонов (1 или 2)
         is_horizontal: Горизонтальная ориентация баннера
-        favicons_dir: Директория с логотипами для блока контактов (например /opt/logo_for_qr_extracted)
+        favicons_dir: Директория с логотипами для блока контактов (например external/logo_for_qr_extracted)
     """
     # Защита от неправильного типа background_zones
     if not isinstance(background_zones, list):
@@ -938,7 +938,7 @@ def main():
         "--domains-csv",
         type=str,
         default=None,
-        help="Путь к CSV с доменами для случайной генерации QR (например /opt/traditional_healers_domains.csv). Без указания используется внутренний скрипт.",
+        help="Путь к CSV с доменами для случайной генерации QR (например external/traditional_healers_domains.csv). Без указания используется внутренний скрипт.",
     )
     parser.add_argument(
         "--favicons-dir",

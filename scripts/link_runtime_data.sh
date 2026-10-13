@@ -3,7 +3,7 @@
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-SRC="${GLM_DATA_ROOT:-/opt/glm-image-pipeline}"
+SRC="${GLM_DATA_ROOT:-.}"
 
 if [[ ! -d "$SRC" ]]; then
   echo "GLM_DATA_ROOT not found: $SRC"
@@ -34,5 +34,5 @@ link_one alcohol_free_icons_clean
 link_one alcohol_free_icons_2
 link_one alcohol_free_icons_2_clean
 
-echo "QR generator (optional): export PYTHONPATH=/opt/custom-qr-generator:\$PYTHONPATH"
+echo "QR generator (optional): export PYTHONPATH=external/custom-qr-generator:\$PYTHONPATH"
 echo "Done. Category scripts resolve assets via PROJECT_ROOT/<name>."

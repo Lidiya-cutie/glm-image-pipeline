@@ -34,7 +34,7 @@ FOLK_MEDICINE_DOMAINS_CONTACTS = [
     "массаж-пента.рф", "clinic-amrita.ru", "tibetspb.ru", "life-plus.online", "brahmaspb.com",
     "insam.spb.ru", "ayurvedakamala.ru", "medi-cn.ru", "ayurdara.ru", "medfolk.ru",
 ]
-LOGO_FOR_QR_DIR = Path("/opt/logo_for_qr_extracted")
+LOGO_FOR_QR_DIR = Path("external/logo_for_qr_extracted")
 
 def _load_contact_logos(max_count=10):
     if not LOGO_FOR_QR_DIR.exists():

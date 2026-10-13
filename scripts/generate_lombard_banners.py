@@ -321,7 +321,7 @@ def main():
     parser.add_argument("--qr-chance", type=float, default=50.0, help="Вероятность добавления QR-кода (0-100)")
     parser.add_argument("--backgrounds-only", action="store_true", help="Генерировать ТОЛЬКО фоны без текста")
     parser.add_argument("--add-phone-logos", action="store_true", help="Добавлять логотипы после телефона")
-    parser.add_argument("--favicons-dir", type=str, default="/opt/logo_for_qr_extracted", help="Директория с логотипами")
+    parser.add_argument("--favicons-dir", type=str, default="external/logo_for_qr_extracted", help="Директория с логотипами")
     args = parser.parse_args()
 
     if args.list_scenarios:

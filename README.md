@@ -30,7 +30,7 @@ docker compose up --build
 Код и JSON — в репозитории. Медиа — снаружи:
 
 ```bash
-# По умолчанию линкует из /opt/glm-image-pipeline
+# По умолчанию — каталог из GLM_DATA_ROOT (по умолчанию корень репозитория)
 bash scripts/link_runtime_data.sh
 
 # Или свой каталог с cigarette_images/, fonts/, baby_logo/
@@ -50,7 +50,7 @@ bash scripts/link_runtime_data.sh
 | Discreditation | `scripts/generate_discreditation_banners.py` | `configs/discreditation_config.json` |
 | Circular frame | `scripts/generate_circular_frame_banners.py` | `configs/circular_frame_config.json` |
 
-QR-категории: внешний `/opt/custom-qr-generator` (не в этом репо). См. `scripts/*README.md`.
+QR-категории: внешний `external/custom-qr-generator` (не в этом репо). См. `scripts/*README.md`.
 
 Базовый оверлей: `scripts/text_overlay.py`. Общие баннеры: `generate_banners.py`, `generate_ad_banners.py`.
 

@@ -4,7 +4,7 @@
 
 Скрипт `generate_folk_medicine_with_qr.py` объединяет:
 1. Генерацию баннеров народной медицины
-2. Генерацию QR-кодов с логотипами из `/opt/logo_for_qr.rar`
+2. Генерацию QR-кодов с логотипами из `external/logo_for_qr.rar`
 3. Умное наложение QR с избежанием текста
 
 ## Установка зависимостей
@@ -51,8 +51,8 @@ python3 scripts/generate_folk_medicine_with_qr.py \
 - `--qr-type TYPE` - тип QR: `simple`, `artistic_white`, `artistic_transparent`, `custom_color`, `random`
 
 ### Логотипы
-- `--logo-archive PATH` - путь к архиву с логотипами (по умолчанию `/opt/logo_for_qr.rar`)
-- `--logo-dir PATH` - директория для распаковки (по умолчанию `/opt/logo_for_qr_extracted`)
+- `--logo-archive PATH` - путь к архиву с логотипами (по умолчанию `external/logo_for_qr.rar`)
+- `--logo-dir PATH` - директория для распаковки (по умолчанию `external/logo_for_qr_extracted`)
 
 ### Генерация
 - `--width`, `--height` - размер изображения (по умолчанию 1024)
@@ -71,7 +71,7 @@ python3 scripts/generate_folk_medicine_with_qr.py \
 
 ## Автоматическая распаковка архива
 
-Скрипт автоматически распаковывает `/opt/logo_for_qr.rar` при первом запуске.
+Скрипт автоматически распаковывает `external/logo_for_qr.rar` при первом запуске.
 Поддерживаются методы:
 - `unrar` (если установлен)
 - `python-rarfile` (если установлен: `pip install rarfile`)
@@ -79,7 +79,7 @@ python3 scripts/generate_folk_medicine_with_qr.py \
 
 Если автоматическая распаковка не работает, распакуйте архив вручную:
 ```bash
-unrar x /opt/logo_for_qr.rar /opt/logo_for_qr_extracted/
+unrar x external/logo_for_qr.rar external/logo_for_qr_extracted/
 ```
 
 ## Выходные данные
@@ -96,7 +96,7 @@ unrar x /opt/logo_for_qr.rar /opt/logo_for_qr_extracted/
   "scenario": "herbs_jars",
   "has_qr": true,
   "qr_type": "artistic_transparent",
-  "logo_path": "/opt/logo_for_qr_extracted/logo1.png",
+  "logo_path": "external/logo_for_qr_extracted/logo1.png",
   "url": "https://newnorma.ru",
   "generation_time_sec": 28.5
 }

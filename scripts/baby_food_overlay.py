@@ -329,7 +329,7 @@ BABY_LOGO_DIR = Path(os.environ.get("GLM_BABY_LOGO_DIR", str(PROJECT_ROOT / "bab
 BABY_LOGO_DIR_FALLBACK = Path(
     os.environ.get(
         "GLM_DATA_ROOT",
-        "/opt/glm-image-pipeline",
+        ".",
     )
 ) / "baby_logo"
 

@@ -15,15 +15,15 @@
 
 ### 2. Генерация QR-кодов
 
-**Файл:** `/opt/custom-qr-generator/qr_generator/domain_processor.py`
+**Файл:** `external/custom-qr-generator/qr_generator/domain_processor.py`
 
 **Найденные возможности:**
 - ✅ Загрузка доменов из CSV (`traditional_healers_domains.csv`)
-- ✅ Работа с фавиконами из `/opt/LLD_favicons_full_png`
+- ✅ Работа с фавиконами из `external/LLD_favicons_full_png`
 - ✅ Генерация QR с разными стилями
 - ✅ Пакетная генерация для всех доменов
 
-**Файл:** `/opt/custom-qr-generator/qr_generator/artistic.py`
+**Файл:** `external/custom-qr-generator/qr_generator/artistic.py`
 
 **Найденные возможности:**
 - ✅ QR на прозрачном фоне (`generate_transparent()`)
@@ -248,8 +248,8 @@ python3 -c "import qrcode; import PIL; print('OK')"
    ```
 
 2. **Ошибка импорта из qr_generator**:
-   - Убедитесь, что `/opt/custom-qr-generator` существует
-   - Проверьте структуру: `/opt/custom-qr-generator/qr_generator/`
+   - Убедитесь, что `external/custom-qr-generator` существует
+   - Проверьте структуру: `external/custom-qr-generator/qr_generator/`
 
 3. **Проблемы с виртуальным окружением**:
    ```bash

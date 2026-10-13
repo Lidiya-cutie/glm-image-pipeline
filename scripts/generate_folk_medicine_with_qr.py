@@ -4,7 +4,7 @@
 
 Объединяет:
 1. Генерацию баннеров народной медицины (FolkMedicineBannerPipeline)
-2. Генерацию QR-кодов с логотипами из /opt/logo_for_qr.rar
+2. Генерацию QR-кодов с логотипами из external/logo_for_qr.rar
 3. Наложение QR на баннеры с избежанием текста
 
 Особенности:
@@ -12,7 +12,7 @@
 - QR накладываются только на часть баннеров (настраиваемый процент)
 - QR избегают наложения на текст (умное позиционирование)
 - Разнообразие типов QR: простые, артистичные, кастомные цветные
-- Логотипы из архива /opt/logo_for_qr.rar
+- Логотипы из архива external/logo_for_qr.rar
 
 УСТАНОВКА ЗАВИСИМОСТЕЙ:
     pip install qrcode[pil]>=7.4.2 Pillow>=10.0.0
@@ -62,7 +62,7 @@ from scripts.folk_medicine_overlay_2 import (
 )
 
 # Импорты для QR-кодов
-sys.path.insert(0, str(Path("/opt/custom-qr-generator")))
+sys.path.insert(0, str(Path("external/custom-qr-generator")))
 
 # Проверка базовой зависимости qrcode
 try:
@@ -86,7 +86,7 @@ except ImportError as e:
     print("=" * 70)
     print(f"\nДетали: {e}")
     print("\nПроверьте:")
-    print("  1. Путь /opt/custom-qr-generator существует")
+    print("  1. Путь external/custom-qr-generator существует")
     print("  2. Установлены зависимости: pip install qrcode[pil] Pillow")
     print("=" * 70)
     sys.exit(1)
@@ -95,7 +95,7 @@ except ImportError as e:
 class LogoManager:
     """Менеджер для работы с логотипами из архива."""
     
-    def __init__(self, archive_path: str = "/opt/logo_for_qr.rar", extract_dir: str = "/opt/logo_for_qr_extracted"):
+    def __init__(self, archive_path: str = "external/logo_for_qr.rar", extract_dir: str = "external/logo_for_qr_extracted"):
         self.archive_path = Path(archive_path)
         self.extract_dir = Path(extract_dir)
         self.logos: List[Path] = []
@@ -413,8 +413,8 @@ class FolkMedicineQRPipeline:
     
     def __init__(
         self,
-        logo_archive: str = "/opt/logo_for_qr.rar",
-        logo_dir: str = "/opt/logo_for_qr_extracted",
+        logo_archive: str = "external/logo_for_qr.rar",
+        logo_dir: str = "external/logo_for_qr_extracted",
         device: str = "cuda",
         dtype: torch.dtype = torch.float16,
         quantize: Optional[str] = None,
@@ -838,10 +838,10 @@ def main():
     
     # Логотипы
     parser.add_argument("--logo-archive", type=str,
-                        default="/opt/logo_for_qr.rar",
+                        default="external/logo_for_qr.rar",
                         help="Путь к архиву с логотипами")
     parser.add_argument("--logo-dir", type=str,
-                        default="/opt/logo_for_qr_extracted",
+                        default="external/logo_for_qr_extracted",
                         help="Директория для распаковки логотипов")
     
     # Генерация баннеров
